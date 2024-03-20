@@ -1,55 +1,47 @@
-'''
-1. 讀取一個 totalData.json 格式的輸入文件。
-2. 對資料進行處理，將其重組為指定的格式。
-3. 將處理後的資料寫入到一個新的 hw_num.json 文件。
-'''
-
 import json
 
-# 讀取output_file 而不是讀取 "filename" 這樣才可以依據不同aId 來寫入不同資料
-def read_json_file(input_file): 
-    """Read and return the totalData.json"""
-    with open(input_file, 'r', encoding='utf-8') as file:
+def read_json_file(file_path):
+    """Read and return the content of a JSON file."""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        print('read file success')
         return json.load(file)
 
-def write_json_file(data, output_file):
+def write_json_file(data, file_path):
     """Write data to a JSON file."""
-    with open(output_file, 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
+        print('write file success')
 
-def organize_data(input_data):
-    """Organize data by reviewId and round."""
-    organized_data = {}
-    for record in input_data['recordData']:
-        key = (record['auId'], record['reviewId'], record['aId'], record['authorUsername'], record['authorName'], record['reviewerUsername'], record['reviewerName'])
-        if key not in organized_data:
-            organized_data[key] = {
-                "auId": record['auId'],
-                "reviewId": record['reviewId'],
-                "aId": record['aId'],
-                "authorUsername": record['authorUsername'],
-                "authorName": record['authorName'],
-                "reviewerUsername": record['reviewerUsername'],
-                "reviewerName": record['reviewerName'],
-                "round": []
-            }
-        organized_data[key]['round'].append({k: v for k, v in record.items() if k not in key})
+def filter_and_organize_data(input_data, target_aId):
+    print('test filter & org func')
+    filtered_data = [record for record in input_data['recordData'] if record['auId'] == target_aId]
+    return {"recordData": filtered_data}
 
-    return {"recordData": list(organized_data.values())}
+
+def organize_data_based_on_your_criteria(filtered_data):
+    print('test organize func')
+    return {"recordData": filtered_data}
 
 def main():
-    # Change these file paths as needed
-    input_file = 'totalData.json'  # 讀取當前目錄下的 totalData.json
-    output_file = 'Hw_{aId}.json'  # 寫入到當前目錄下的 Hw_{aId}.json，Ex: Hw_2.json
+    target_aIds = [2, 3, 4, 5, 6, 7, 8, 9, 10]  # 想要處理的 auId 列表
+    input_file = 'totalData.json'
     
-    # Read the input data
     input_data = read_json_file(input_file)
     
-    # Organize the data
-    organized_data = organize_data(input_data)
-    
-    # Write the organized data to a file
-    write_json_file(organized_data, output_file)
+    print('test 3/20')
+    for aId in target_aIds:
+        print(f"Processing auId: {aId}")
+        organized_data = filter_and_organize_data(input_data, aId)
+        print(f"Organized data: {organized_data}")  # 查看過濾結果
+
+        if organized_data['recordData']:
+            output_file = f'Hw_{aId}.json'
+            write_json_file(organized_data, output_file)
+            print(f"File written: {output_file}")
+        else:
+            print(f"No data for aId: {aId}")
+
+
 
 if __name__ == "__main__":
     main()
