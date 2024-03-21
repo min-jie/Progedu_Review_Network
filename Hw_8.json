@@ -1,0 +1,1544 @@
+{
+    "recordData": [
+        {
+            "auId": 162,
+            "reviewId": 17,
+            "aId": 8,
+            "authorUsername": "D0909463",
+            "authorName": "朱禎城",
+            "reviewerUsername": "D1150033",
+            "reviewerName": "林畔茵",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 13:48:19",
+                    "feedback": "good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 362,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 13:48:27",
+                    "feedback": "good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 362,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 162,
+            "reviewId": 16,
+            "aId": 8,
+            "authorUsername": "D0909463",
+            "authorName": "朱禎城",
+            "reviewerUsername": "D1149754",
+            "reviewerName": "薛子揚",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 13:48:48",
+                    "feedback": "good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 384,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 13:54:32",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 384,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 162,
+            "reviewId": 15,
+            "aId": 8,
+            "authorUsername": "D0909463",
+            "authorName": "朱禎城",
+            "reviewerUsername": "D1149651",
+            "reviewerName": "林茂杰",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 13:54:43",
+                    "feedback": "GOODDDDD!!!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 406,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 13:54:55",
+                    "feedback": "很棒:D",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 406,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 163,
+            "reviewId": 18,
+            "aId": 8,
+            "authorUsername": "D0915755",
+            "authorName": "陳?言",
+            "reviewerUsername": "D1150136",
+            "reviewerName": "陳可軒",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 20:16:10",
+                    "feedback": "記得加上註解",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 363,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 20:18:42",
+                    "feedback": "記得加上註解",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 363,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 163,
+            "reviewId": 17,
+            "aId": 8,
+            "authorUsername": "D0915755",
+            "authorName": "陳?言",
+            "reviewerUsername": "D1150033",
+            "reviewerName": "林畔茵",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 20:22:03",
+                    "feedback": "應加上更詳細註解，且輸出可以更加完整",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 385,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 21:55:20",
+                    "feedback": "讚",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 385,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 163,
+            "reviewId": 16,
+            "aId": 8,
+            "authorUsername": "D0915755",
+            "authorName": "陳?言",
+            "reviewerUsername": "D1149754",
+            "reviewerName": "薛子揚",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 21:56:20",
+                    "feedback": "讚",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 407,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 21:57:05",
+                    "feedback": "讚",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 407,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 164,
+            "reviewId": 19,
+            "aId": 8,
+            "authorUsername": "D0987305",
+            "authorName": "陳煒明",
+            "reviewerUsername": "D1150402",
+            "reviewerName": "潘韋樺",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 22:22:59",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 364,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-24 22:23:04",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 364,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 164,
+            "reviewId": 18,
+            "aId": 8,
+            "authorUsername": "D0987305",
+            "authorName": "陳煒明",
+            "reviewerUsername": "D1150136",
+            "reviewerName": "陳可軒",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-24 22:23:09",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 386,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 05:37:38",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 386,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 164,
+            "reviewId": 17,
+            "aId": 8,
+            "authorUsername": "D0987305",
+            "authorName": "陳煒明",
+            "reviewerUsername": "D1150033",
+            "reviewerName": "林畔茵",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-25 05:37:59",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 408,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 05:38:29",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 408,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 165,
+            "reviewId": 20,
+            "aId": 8,
+            "authorUsername": "D1109023",
+            "authorName": "楊孟憲",
+            "reviewerUsername": "D1176999",
+            "reviewerName": "林仕鈞",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-25 13:24:40",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 365,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 13:25:53",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 365,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 165,
+            "reviewId": 19,
+            "aId": 8,
+            "authorUsername": "D1109023",
+            "authorName": "楊孟憲",
+            "reviewerUsername": "D1150402",
+            "reviewerName": "潘韋樺",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-25 13:26:36",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 387,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 13:31:22",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 387,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 165,
+            "reviewId": 18,
+            "aId": 8,
+            "authorUsername": "D1109023",
+            "authorName": "楊孟憲",
+            "reviewerUsername": "D1150136",
+            "reviewerName": "陳可軒",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-25 13:31:39",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 409,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 13:32:51",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 409,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 166,
+            "reviewId": 21,
+            "aId": 8,
+            "authorUsername": "D1109070",
+            "authorName": "柯昀杰",
+            "reviewerUsername": "D1271374",
+            "reviewerName": "黃詠傑",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-25 22:05:52",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 366,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 22:07:46",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 366,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 166,
+            "reviewId": 20,
+            "aId": 8,
+            "authorUsername": "D1109070",
+            "authorName": "柯昀杰",
+            "reviewerUsername": "D1176999",
+            "reviewerName": "林仕鈞",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2023-12-25 22:09:23",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 388,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2023-12-25 22:29:18",
+                    "feedback": "正確",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 388,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 166,
+            "reviewId": 19,
+            "aId": 8,
+            "authorUsername": "D1109070",
+            "authorName": "柯昀杰",
+            "reviewerUsername": "D1150402",
+            "reviewerName": "潘韋樺",
+            "round": [
+                {
+                    "score": 2,
+                    "time": "2023-12-25 22:31:22",
+                    "feedback": "作業未上傳",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 410,
+                    "round": 1
+                },
+                {
+                    "score": 2,
+                    "time": "2023-12-25 22:32:46",
+                    "feedback": "作業未上傳",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 410,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 167,
+            "reviewId": 22,
+            "aId": 8,
+            "authorUsername": "D1123781",
+            "authorName": "劉得鑌",
+            "reviewerUsername": "D1276723",
+            "reviewerName": "謝佾諠",
+            "round": [
+                {
+                    "score": 2,
+                    "time": "2024-01-02 00:48:49",
+                    "feedback": "比對時請忽略大小寫。",
+                    "reviewScore": 4,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 367,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 00:49:58",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 367,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 167,
+            "reviewId": 21,
+            "aId": 8,
+            "authorUsername": "D1123781",
+            "authorName": "劉得鑌",
+            "reviewerUsername": "D1271374",
+            "reviewerName": "黃詠傑",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 00:51:33",
+                    "feedback": "Good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 389,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 03:29:49",
+                    "feedback": "中規中矩",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 389,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 167,
+            "reviewId": 20,
+            "aId": 8,
+            "authorUsername": "D1123781",
+            "authorName": "劉得鑌",
+            "reviewerUsername": "D1176999",
+            "reviewerName": "林仕鈞",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 03:31:56",
+                    "feedback": "中規中矩",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 411,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 03:33:28",
+                    "feedback": "中規中矩",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 411,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 168,
+            "reviewId": 23,
+            "aId": 8,
+            "authorUsername": "D1123819",
+            "authorName": "陳堂修",
+            "reviewerUsername": "D0845235",
+            "reviewerName": "測試帳號",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 07:30:28",
+                    "feedback": "good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 368,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 10:38:50",
+                    "feedback": "很棒可以用equalIgnore",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 368,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 168,
+            "reviewId": 22,
+            "aId": 8,
+            "authorUsername": "D1123819",
+            "authorName": "陳堂修",
+            "reviewerUsername": "D1276723",
+            "reviewerName": "謝佾諠",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 10:40:39",
+                    "feedback": "很棒，完美!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 390,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 10:42:34",
+                    "feedback": "Good Perferct!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 390,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 168,
+            "reviewId": 21,
+            "aId": 8,
+            "authorUsername": "D1123819",
+            "authorName": "陳堂修",
+            "reviewerUsername": "D1271374",
+            "reviewerName": "黃詠傑",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 11:06:47",
+                    "feedback": "good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 412,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 11:08:45",
+                    "feedback": "good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 412,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 169,
+            "reviewId": 1,
+            "aId": 8,
+            "authorUsername": "D1123954",
+            "authorName": "陳啟瑋",
+            "reviewerUsername": "D0909463",
+            "reviewerName": "朱禎城",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 11:11:15",
+                    "feedback": "good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 346,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 15:44:20",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 346,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 169,
+            "reviewId": 23,
+            "aId": 8,
+            "authorUsername": "D1123954",
+            "authorName": "陳啟瑋",
+            "reviewerUsername": "D0845235",
+            "reviewerName": "測試帳號",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 15:44:24",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 391,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 15:44:29",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 391,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 169,
+            "reviewId": 22,
+            "aId": 8,
+            "authorUsername": "D1123954",
+            "authorName": "陳啟瑋",
+            "reviewerUsername": "D1276723",
+            "reviewerName": "謝佾諠",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 21:54:53",
+                    "feedback": "寫得真好，有用到ignore",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 413,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 22:00:14",
+                    "feedback": "很棒",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 413,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 170,
+            "reviewId": 2,
+            "aId": 8,
+            "authorUsername": "D1123985",
+            "authorName": "許鈞翔",
+            "reviewerUsername": "D0915755",
+            "reviewerName": "陳?言",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 22:01:32",
+                    "feedback": "有達到要求",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 347,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 22:02:27",
+                    "feedback": "有達到標準",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 347,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 170,
+            "reviewId": 1,
+            "aId": 8,
+            "authorUsername": "D1123985",
+            "authorName": "許鈞翔",
+            "reviewerUsername": "D0909463",
+            "reviewerName": "朱禎城",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 22:05:51",
+                    "feedback": "GOOD!!註解寫得非常清楚",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 369,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-02 22:10:09",
+                    "feedback": "寫得真好，註解清晰",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 369,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 170,
+            "reviewId": 23,
+            "aId": 8,
+            "authorUsername": "D1123985",
+            "authorName": "許鈞翔",
+            "reviewerUsername": "D0845235",
+            "reviewerName": "測試帳號",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-02 23:58:17",
+                    "feedback": "符合題目敘述 很棒",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 414,
+                    "round": 1
+                },
+                {
+                    "score": 2,
+                    "time": "2024-01-03 00:02:38",
+                    "feedback": "雖然符合題目要求 但是你的grades沒有getter 請補上",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 414,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 171,
+            "reviewId": 3,
+            "aId": 8,
+            "authorUsername": "D1149311",
+            "authorName": "黃樞瑀",
+            "reviewerUsername": "D0987305",
+            "reviewerName": "陳煒明",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-03 00:05:42",
+                    "feedback": "達成題目所需要的內容了 甚至可以自行輸入名字和學號 讚",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 348,
+                    "round": 1
+                },
+                {
+                    "score": 2,
+                    "time": "2024-01-03 00:06:29",
+                    "feedback": "題目無要求須輸入學生姓名與ID",
+                    "reviewScore": 2,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 348,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 171,
+            "reviewId": 2,
+            "aId": 8,
+            "authorUsername": "D1149311",
+            "authorName": "黃樞瑀",
+            "reviewerUsername": "D0915755",
+            "reviewerName": "陳?言",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-03 00:08:33",
+                    "feedback": "正確",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 370,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-03 00:09:15",
+                    "feedback": "Great!!!!!!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 370,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 171,
+            "reviewId": 1,
+            "aId": 8,
+            "authorUsername": "D1149311",
+            "authorName": "黃樞瑀",
+            "reviewerUsername": "D0909463",
+            "reviewerName": "朱禎城",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-03 00:10:46",
+                    "feedback": "很清楚 詳細",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 392,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-03 00:10:51",
+                    "feedback": "Good!!!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 392,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 172,
+            "reviewId": 4,
+            "aId": 8,
+            "authorUsername": "D1149400",
+            "authorName": "張庭媮",
+            "reviewerUsername": "D1109023",
+            "reviewerName": "楊孟憲",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-03 00:18:34",
+                    "feedback": "正確",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 349,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-03 22:03:26",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 349,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 172,
+            "reviewId": 3,
+            "aId": 8,
+            "authorUsername": "D1149400",
+            "authorName": "張庭媮",
+            "reviewerUsername": "D0987305",
+            "reviewerName": "陳煒明",
+            "round": [
+                {
+                    "score": 2,
+                    "time": "2024-01-03 22:05:04",
+                    "feedback": "尚未繳交檔案",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 371,
+                    "round": 1
+                },
+                {
+                    "score": 2,
+                    "time": "2024-01-03 22:06:39",
+                    "feedback": "尚未繳交檔案",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 371,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 172,
+            "reviewId": 2,
+            "aId": 8,
+            "authorUsername": "D1149400",
+            "authorName": "張庭媮",
+            "reviewerUsername": "D0915755",
+            "reviewerName": "陳?言",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-03 23:13:41",
+                    "feedback": "GOOD\n",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 393,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-03 23:14:20",
+                    "feedback": "good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 393,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 173,
+            "reviewId": 5,
+            "aId": 8,
+            "authorUsername": "D1149474",
+            "authorName": "洪采萱",
+            "reviewerUsername": "D1109070",
+            "reviewerName": "柯昀杰",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-06 00:04:54",
+                    "feedback": "超棒的!!!，然後equal可以用ignore的",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 350,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-06 00:07:21",
+                    "feedback": "超級棒，做到需要的步驟，讚!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 350,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 173,
+            "reviewId": 4,
+            "aId": 8,
+            "authorUsername": "D1149474",
+            "authorName": "洪采萱",
+            "reviewerUsername": "D1109023",
+            "reviewerName": "楊孟憲",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-06 00:10:32",
+                    "feedback": "很棒，不過//可以刪掉一些，然後沒有輸出錯誤的名字",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 372,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-06 23:43:38",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 372,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 173,
+            "reviewId": 3,
+            "aId": 8,
+            "authorUsername": "D1149474",
+            "authorName": "洪采萱",
+            "reviewerUsername": "D0987305",
+            "reviewerName": "陳煒明",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-06 23:43:44",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 394,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-06 23:43:49",
+                    "feedback": "",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 394,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 174,
+            "reviewId": 6,
+            "aId": 8,
+            "authorUsername": "D1149580",
+            "authorName": "吳?瑋",
+            "reviewerUsername": "D1123781",
+            "reviewerName": "劉得鑌",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 00:11:02",
+                    "feedback": "GOOD!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 351,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 00:14:04",
+                    "feedback": "Great!\n",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 351,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 174,
+            "reviewId": 5,
+            "aId": 8,
+            "authorUsername": "D1149580",
+            "authorName": "吳?瑋",
+            "reviewerUsername": "D1109070",
+            "reviewerName": "柯昀杰",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 00:17:44",
+                    "feedback": "Perfect!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 373,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 12:40:02",
+                    "feedback": "有達到要求",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 373,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 174,
+            "reviewId": 4,
+            "aId": 8,
+            "authorUsername": "D1149580",
+            "authorName": "吳?瑋",
+            "reviewerUsername": "D1109023",
+            "reviewerName": "楊孟憲",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 12:40:16",
+                    "feedback": "有達到要求",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 395,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 12:40:29",
+                    "feedback": "有達到要求",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 395,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 175,
+            "reviewId": 7,
+            "aId": 8,
+            "authorUsername": "D1149604",
+            "authorName": "朱苡甄",
+            "reviewerUsername": "D1123819",
+            "reviewerName": "陳堂修",
+            "round": [
+                {
+                    "score": 2,
+                    "time": "2024-01-07 13:29:45",
+                    "feedback": "作業未完成",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 352,
+                    "round": 1
+                },
+                {
+                    "score": 2,
+                    "time": "2024-01-07 13:30:57",
+                    "feedback": "作業未完成",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 352,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 175,
+            "reviewId": 6,
+            "aId": 8,
+            "authorUsername": "D1149604",
+            "authorName": "朱苡甄",
+            "reviewerUsername": "D1123781",
+            "reviewerName": "劉得鑌",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 13:41:11",
+                    "feedback": "正確",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 374,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 13:41:22",
+                    "feedback": "正確",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 374,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 175,
+            "reviewId": 5,
+            "aId": 8,
+            "authorUsername": "D1149604",
+            "authorName": "朱苡甄",
+            "reviewerUsername": "D1109070",
+            "reviewerName": "柯昀杰",
+            "round": [
+                {
+                    "score": 2,
+                    "time": "2024-01-07 13:52:38",
+                    "feedback": "並未在grade(HashMap)的setter(getGrades)改寫為儲存以及將String轉成大寫的功能。",
+                    "reviewScore": 0,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 396,
+                    "round": 1
+                },
+                {
+                    "score": 2,
+                    "time": "2024-01-07 13:53:44",
+                    "feedback": "並未在grade(HashMap)的setter(getGrades)改寫為儲存以及將String轉成大寫的功能。",
+                    "reviewScore": 0,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 396,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 176,
+            "reviewId": 8,
+            "aId": 8,
+            "authorUsername": "D1149651",
+            "authorName": "林茂杰",
+            "reviewerUsername": "D1123954",
+            "reviewerName": "陳啟瑋",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 14:32:00",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 353,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 14:39:36",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 353,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 176,
+            "reviewId": 7,
+            "aId": 8,
+            "authorUsername": "D1149651",
+            "authorName": "林茂杰",
+            "reviewerUsername": "D1123819",
+            "reviewerName": "陳堂修",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 14:43:41",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 375,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 21:37:13",
+                    "feedback": "很棒 中規中矩",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 375,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 176,
+            "reviewId": 6,
+            "aId": 8,
+            "authorUsername": "D1149651",
+            "authorName": "林茂杰",
+            "reviewerUsername": "D1123781",
+            "reviewerName": "劉得鑌",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 21:38:33",
+                    "feedback": "很棒 符合題目要求 有改正",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 397,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 21:38:42",
+                    "feedback": "GOOD",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 397,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 177,
+            "reviewId": 9,
+            "aId": 8,
+            "authorUsername": "D1149754",
+            "authorName": "薛子揚",
+            "reviewerUsername": "D1123985",
+            "reviewerName": "許鈞翔",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 22:33:28",
+                    "feedback": "Good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 354,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-07 22:34:11",
+                    "feedback": "YJK, good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 354,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 177,
+            "reviewId": 8,
+            "aId": 8,
+            "authorUsername": "D1149754",
+            "authorName": "薛子揚",
+            "reviewerUsername": "D1123954",
+            "reviewerName": "陳啟瑋",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-07 22:34:53",
+                    "feedback": "Good",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 376,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-08 12:23:51",
+                    "feedback": "good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 376,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 177,
+            "reviewId": 7,
+            "aId": 8,
+            "authorUsername": "D1149754",
+            "authorName": "薛子揚",
+            "reviewerUsername": "D1123819",
+            "reviewerName": "陳堂修",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-08 12:25:30",
+                    "feedback": "good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 398,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-08 12:27:23",
+                    "feedback": "good!",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 398,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 178,
+            "reviewId": 10,
+            "aId": 8,
+            "authorUsername": "D1150033",
+            "authorName": "林畔茵",
+            "reviewerUsername": "D1149311",
+            "reviewerName": "黃樞瑀",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-08 22:08:21",
+                    "feedback": "pass\n",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 355,
+                    "round": 1
+                },
+                {
+                    "score": 1,
+                    "time": "2024-01-08 22:08:32",
+                    "feedback": "pass",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 1,
+                    "pmId": 355,
+                    "round": 2
+                }
+            ]
+        },
+        {
+            "auId": 178,
+            "reviewId": 9,
+            "aId": 8,
+            "authorUsername": "D1150033",
+            "authorName": "林畔茵",
+            "reviewerUsername": "D1123985",
+            "reviewerName": "許鈞翔",
+            "round": [
+                {
+                    "score": 1,
+                    "time": "2024-01-08 22:08:47",
+                    "feedback": "pass",
+                    "reviewScore": -1,
+                    "teacherReview": 0,
+                    "status": 3,
+                    "pmId": 377,
+                    "round": 1
+                }
+            ]
+        }
+    ]
+}
