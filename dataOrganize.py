@@ -57,10 +57,6 @@ original_records = [
 ]
 
 
-
-
-
-
 def main():
     target_aIds = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]  # 想要處理的 auId 列表，只有 Hw_2 3 4 5 6 8
     input_file = 'totalData.json'
@@ -81,6 +77,8 @@ def main():
             print(f"File written: {output_file}")
         else:
             print(f"No data for aId: {aId}")
+
+        print('\n')
 
 
 
