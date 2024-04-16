@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Network Example</title>
+    <meta charset="utf-8">
+    <title>ProgEdu Review Network</title>
     <link rel="stylesheet" type="text/css" href="graph.css">
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <link href="https://unpkg.com/vis-network/styles/vis-network.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/vis-network/styles/vis-network.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         
     </style>
 </head>
 <body>
-
-<div id="reviewNetwork"></div>
+<div id="reviewNetwork" style="width: 800px; height: 600px;"></div>
+<script src="graph.js"></script>
+<!-- <div id="reviewNetwork"></div>
 
 <script type="text/javascript">
   // 定义节点
@@ -24,31 +28,24 @@
       {id: 6, label: 'Student 6'},
       {id: 7, label: 'Student 7'},
       {id: 8, label: 'Student 8'},
+      {id: 9, label: 'Student 9'},
+      {id: 10, label: 'Student 10'},
   ]);
 
   // 定义边
+  // 有review 為箭頭實線，無則虛線
   var edges = new vis.DataSet([
       {from: 2, to: 1, arrows: 'to'},
       {from: 3, to: 1, arrows: 'to'},
       {from: 4, to: 1, arrows: 'to'},
       {from: 5, to: 2, arrows: 'to'},
       {from: 6, to: 2, arrows: 'to'},
-      {from: 7, to: 2, arrows: {
-            to: {
-                enabled: true,
-                scaleFactor: 1,  // 控制箭头大小的因子，1 为原始大小
-                type: 'arrow'    // 箭头类型，可选值有 'arrow', 'bar', 'circle', 'box', 等
-            }
-        },
-        color: {
-            color: '#ff0000',  // 边的颜色
-            highlight: '#ff0000',
-            hover: '#ff0000',
-            inherit: false,
-            opacity: 1.0
-        }},
-
+      {from: 7, to: 2, arrows: 'to'},
+      {from: 8, to: 5, arrows: 'to'},
+      {from: 9, to: 5, arrows: 'to'},
+      {from: 10, to: 5, dashes: true},
   ]);
+
 
   // 创建网络图
   var container = document.getElementById('reviewNetwork');
@@ -58,7 +55,7 @@
   };
   var options = {};
   var network = new vis.Network(container, data, options);
-</script>
+</script> -->
 
 </body>
 </html>
