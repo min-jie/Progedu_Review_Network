@@ -2145,30 +2145,44 @@ document.addEventListener('DOMContentLoaded', function () {
         
     ];
 
-    var nodes = new vis.DataSet();
-    var edges = new vis.DataSet();
+    // 建立一個新的空節點集合
+var nodes = new vis.DataSet();
+// 建立一個新的空邊集合
+var edges = new vis.DataSet();
 
-    recordData.forEach(record => {
-        const authorNodeId = `author-${record.auId}`;
-        const reviewerNodeId = `reviewer-${record.reviewId}`;
+// 每一條記錄都代表一個交互評論的記錄，為了避免ID重複所以分
+recordData.forEach(record => {
+    // 每個author 創建nodeID
+    const authorNodeId = `author-${record.auId}`;
+    // 每個reviewer 創建nodeID
+    const reviewerNodeId = `reviewer-${record.reviewId}`;
 
-        nodes.update({id: authorNodeId, label: record.authorName});
-        nodes.update({id: reviewerNodeId, label: record.reviewerName});
+    // 在節點集合中加入或更新author node，label是作者的名字
+    nodes.update({id: authorNodeId, label: record.authorName});
+    // 在節點集合中加入或更新reviewer node，label是評論者的名字
+    nodes.update({id: reviewerNodeId, label: record.reviewerName});
 
-        record.round.forEach(rnd => {
-            edges.add({
-                from: authorNodeId,
-                to: reviewerNodeId,
-                arrows: 'to',
-                dashes: rnd.reviewScore === 0
-            });
+    // 遍歷每一輪的評論，每條記錄可能有多輪評論
+    record.round.forEach(rnd => {
+        // 為每輪評論添加一條edge，從author node 指向 reviewer node
+        edges.add({
+            from: reviewerNodeId,
+            to: authorNodeId,
+            arrows: 'to', // 箭頭指向 author
+            dashes: rnd.reviewScore === 0, // 如果評分為0，則使用虛線
         });
     });
-    var container = document.getElementById('reviewNetwork');
-    var data = {
-        nodes: nodes,
-        edges: edges
-    };
-    var options = {};
-    var network = new vis.Network(container, data, options);
+});
+
+// 獲取容器元素，通常是一個div，用來展示網絡圖
+var container = document.getElementById('reviewNetwork');
+// 構造網絡圖所需的數據，包括節點和邊
+var data = {
+    nodes: nodes,
+    edges: edges
+};
+// 網絡圖的配置選項，可以根據需要進一步配置
+var options = {};
+// 創建一個新的網絡圖，並將其附加到容器上
+var network = new vis.Network(container, data, options);
 });
