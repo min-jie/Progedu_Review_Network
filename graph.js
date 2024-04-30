@@ -2145,23 +2145,47 @@ document.addEventListener('DOMContentLoaded', function () {
         
     ];
 
-    // 建立一個新的空節點集合
+
+
+
+// 建立一個新的空節點集合
 var nodes = new vis.DataSet();
 // 建立一個新的空邊集合
 var edges = new vis.DataSet();
 
-// 每一條記錄都代表一個交互評論的記錄，為了避免ID重複所以分author/reviewer ID
+// 根據評分來確定節點大小的函數
+function getSizeByReviewScore(reviewScore) {
+    if (reviewScore === -1) return 10;   // 如果評分為 -1，節點大小為 10
+    if (reviewScore === 0) return 100;   // 如果評分為 0，節點大小為 100
+    if (reviewScore === 2) return 200;   // 如果評分為 2，節點大小為 200
+    if (reviewScore === 4) return 300;   // 如果評分為 4，節點大小為 300
+    if (reviewScore === 5) return 400;   // 如果評分為 5，節點大小為 400
+    return 10;  // 其他情況預設為最小大小 10
+}
+
+// 遍歷每條記錄，為每個交互創建節點和邊
 recordData.forEach(record => {
     const authorNodeId = `author-${record.auId}`;
     const reviewerNodeId = `reviewer-${record.reviewId}`;
 
     nodes.update({id: authorNodeId, label: record.authorName});
-    nodes.update({id: reviewerNodeId, label: record.reviewerName});
 
     record.round.forEach(rnd => {
         var isCommentEmpty = rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
-        
-        // 添加邊，如果沒有評論則為紅色虛線，有評論則根據是否評分為0選擇實線或虛線
+        var nodeSize = getSizeByReviewScore(rnd.reviewScore);
+
+        // 根據評論輪次設定節點顏色，round1 淺藍; round2 深藍
+        var nodeColor = rnd.round === 1 ? '#b0c4de' : '#4682b4';
+
+        // 更新評論者節點資訊，包括標籤和大小
+        nodes.update({
+            id: reviewerNodeId,
+            label: record.reviewerName,
+            value: nodeSize,
+            color: {background: nodeColor, border: '#4169e1'}
+        });
+
+        // 添加邊，設置顏色和樣式
         edges.add({
             from: reviewerNodeId,
             to: authorNodeId,
@@ -2172,11 +2196,13 @@ recordData.forEach(record => {
 
         // 如果評論者沒有提供評論，更新評論者節點的顏色為紅色
         if (isCommentEmpty) {
-            nodes.update({id: reviewerNodeId, color: {background: 'red', border: 'darkred'}});
+            nodes.update({
+                id: reviewerNodeId,
+                color: {background: 'red', border: 'darkred'}
+            });
         }
     });
 });
-
 
 // 獲取容器元素，通常是一個div，用來展示網絡圖
 var container = document.getElementById('reviewNetwork');
@@ -2186,7 +2212,34 @@ var data = {
     edges: edges
 };
 
-var options = {};
-// 創建一個新的network，並將其附加到容器上
+var options = {
+    nodes: {
+        scaling: {
+            min: 10,
+            max: 400,
+            label: {
+                enabled: true,
+                min: 14,
+                max: 200,
+                maxVisible: 30,
+                drawThreshold: 5
+            },
+            customScalingFunction: function (min, max, total, value) {
+                if (value <= 10) return 0.1;
+                if (value <= 100) return 0.25;
+                if (value <= 200) return 0.5;
+                if (value <= 300) return 0.75;
+                return 1; // 對應 400 大小
+            }
+        }
+    }
+};
+
+// 創建一個新的 network，並將其附加到容器上
 var network = new vis.Network(container, data, options);
+
+
+
+  
+
 });
