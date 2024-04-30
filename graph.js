@@ -2182,7 +2182,7 @@ recordData.forEach(record => {
             id: reviewerNodeId,
             label: record.reviewerName,
             value: nodeSize,
-            color: {background: nodeColor, border: '#4169e1'}
+            color: {background: nodeColor, border: '#4682b4'}
         });
 
         // 添加邊，設置顏色和樣式
