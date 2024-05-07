@@ -13,7 +13,6 @@
                     "score": 2,
                     "time": "2023-11-07 07:59:51",
                     "feedback": "無程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 156,
@@ -23,13 +22,13 @@
                     "score": 1,
                     "time": "2023-11-07 08:01:19",
                     "feedback": "GOOD!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 156,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 70,
@@ -44,7 +43,6 @@
                     "score": 1,
                     "time": "2023-11-07 08:03:15",
                     "feedback": "可以讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 178,
@@ -54,13 +52,13 @@
                     "score": 1,
                     "time": "2023-11-07 08:04:57",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 178,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 70,
@@ -75,7 +73,6 @@
                     "score": 1,
                     "time": "2023-11-07 08:07:41",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 200,
@@ -85,13 +82,13 @@
                     "score": 1,
                     "time": "2023-11-07 08:08:55",
                     "feedback": "%n好像是多寫的，可以改掉一下",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 200,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 71,
@@ -106,7 +103,6 @@
                     "score": 1,
                     "time": "2023-11-07 08:09:13",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 157,
@@ -116,13 +112,13 @@
                     "score": 1,
                     "time": "2023-11-07 12:25:09",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 157,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 71,
@@ -137,7 +133,6 @@
                     "score": 1,
                     "time": "2023-11-07 13:19:34",
                     "feedback": "做的很棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 179,
@@ -147,13 +142,13 @@
                     "score": 1,
                     "time": "2023-11-07 22:31:48",
                     "feedback": "good!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 179,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 71,
@@ -168,7 +163,6 @@
                     "score": 1,
                     "time": "2023-11-07 22:36:43",
                     "feedback": "good!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 201,
@@ -178,13 +172,13 @@
                     "score": 1,
                     "time": "2023-11-07 22:38:18",
                     "feedback": "good!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 201,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 72,
@@ -199,7 +193,6 @@
                     "score": 2,
                     "time": "2023-11-08 02:35:32",
                     "feedback": "totalNumbers >= lotteryNumbers 應該都要可以生成號碼",
-                    "reviewScore": 3,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 158,
@@ -209,13 +202,13 @@
                     "score": 2,
                     "time": "2023-11-08 02:37:37",
                     "feedback": "平均值應該每一組獨立輸出",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 158,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 72,
@@ -230,7 +223,6 @@
                     "score": 2,
                     "time": "2023-11-08 02:39:03",
                     "feedback": "平均值計算錯誤",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 180,
@@ -240,13 +232,13 @@
                     "score": 1,
                     "time": "2023-11-08 15:17:14",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 180,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 72,
@@ -261,7 +253,6 @@
                     "score": 1,
                     "time": "2023-11-08 15:20:39",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 202,
@@ -271,13 +262,13 @@
                     "score": 1,
                     "time": "2023-11-08 15:22:15",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 202,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 73,
@@ -292,7 +283,6 @@
                     "score": 2,
                     "time": "2023-11-08 16:14:08",
                     "feedback": "運算上沒有問題，但是輸出需要在最後全部一起輸出 (依照老師作業說明最後的輸出格式",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 159,
@@ -302,13 +292,13 @@
                     "score": 2,
                     "time": "2023-11-08 16:16:56",
                     "feedback": "裡面只有老師給的檔案，是沒push 上來嗎?",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 159,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 73,
@@ -323,7 +313,6 @@
                     "score": 1,
                     "time": "2023-11-08 16:19:58",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 181,
@@ -333,13 +322,13 @@
                     "score": 1,
                     "time": "2023-11-08 22:40:59",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 181,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 73,
@@ -354,7 +343,6 @@
                     "score": 1,
                     "time": "2023-11-08 22:43:44",
                     "feedback": "雖然有多餘的程式碼就是了",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 203,
@@ -364,13 +352,13 @@
                     "score": 1,
                     "time": "2023-11-08 22:45:16",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 203,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 74,
@@ -385,7 +373,6 @@
                     "score": 2,
                     "time": "2023-11-08 23:41:15",
                     "feedback": "經測試只有第一組是正確的第二組後開始出現錯誤",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 160,
@@ -395,13 +382,13 @@
                     "score": 1,
                     "time": "2023-11-08 23:42:50",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 160,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 74,
@@ -416,7 +403,6 @@
                     "score": 1,
                     "time": "2023-11-08 23:44:32",
                     "feedback": "有達到要求 very nice",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 182,
@@ -426,13 +412,13 @@
                     "score": 2,
                     "time": "2023-11-11 23:01:40",
                     "feedback": "組別跟平均只有第一組是對的",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 182,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 74,
@@ -447,7 +433,6 @@
                     "score": 1,
                     "time": "2023-11-11 23:02:42",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 204,
@@ -457,13 +442,13 @@
                     "score": 1,
                     "time": "2023-11-11 23:03:36",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 204,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 75,
@@ -478,7 +463,6 @@
                     "score": 1,
                     "time": "2023-11-11 23:20:16",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 161,
@@ -488,13 +472,13 @@
                     "score": 2,
                     "time": "2023-11-11 23:21:26",
                     "feedback": "平均值應該每一組獨立輸出\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 161,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 75,
@@ -509,7 +493,6 @@
                     "score": 2,
                     "time": "2023-11-11 23:22:35",
                     "feedback": "平均值計算錯誤\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 183,
@@ -519,13 +502,13 @@
                     "score": 2,
                     "time": "2023-11-12 18:24:30",
                     "feedback": "無程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 183,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 75,
@@ -540,7 +523,6 @@
                     "score": 1,
                     "time": "2023-11-12 18:26:58",
                     "feedback": "GOOD!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 205,
@@ -550,13 +532,13 @@
                     "score": 1,
                     "time": "2023-11-12 18:28:34",
                     "feedback": "GOOD!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 205,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 76,
@@ -571,7 +553,6 @@
                     "score": 1,
                     "time": "2023-11-13 10:24:49",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 139,
@@ -581,13 +562,13 @@
                     "score": 1,
                     "time": "2023-11-13 10:24:58",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 139,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 76,
@@ -602,7 +583,6 @@
                     "score": 1,
                     "time": "2023-11-13 10:25:11",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 184,
@@ -612,13 +592,13 @@
                     "score": 1,
                     "time": "2023-11-13 13:09:29",
                     "feedback": "pass",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 184,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 76,
@@ -633,7 +613,6 @@
                     "score": 1,
                     "time": "2023-11-13 13:12:22",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 206,
@@ -643,13 +622,13 @@
                     "score": 1,
                     "time": "2023-11-13 13:13:08",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 206,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 77,
@@ -664,7 +643,6 @@
                     "score": 1,
                     "time": "2023-11-13 16:25:40",
                     "feedback": "good\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 140,
@@ -674,13 +652,13 @@
                     "score": 1,
                     "time": "2023-11-13 16:27:10",
                     "feedback": "good\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 140,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 77,
@@ -695,7 +673,6 @@
                     "score": 1,
                     "time": "2023-11-13 16:29:19",
                     "feedback": "Good!\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 162,
@@ -705,13 +682,13 @@
                     "score": 1,
                     "time": "2023-11-13 17:58:54",
                     "feedback": "正確無誤!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 162,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 77,
@@ -726,7 +703,6 @@
                     "score": 1,
                     "time": "2023-11-13 17:59:10",
                     "feedback": "正確無誤!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 207,
@@ -736,13 +712,13 @@
                     "score": 2,
                     "time": "2023-11-13 21:57:19",
                     "feedback": "平均值輸出應為小數點後兩位(包括尾數為0時)，請見作業輸出範例。",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 207,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 78,
@@ -757,7 +733,6 @@
                     "score": 2,
                     "time": "2023-11-13 22:00:18",
                     "feedback": "平均值輸出應為小數點後兩位(包括小數點後第二位為0時)，請見作業輸出範例。",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 141,
@@ -767,13 +742,13 @@
                     "score": 1,
                     "time": "2023-11-13 22:06:31",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 141,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 78,
@@ -788,7 +763,6 @@
                     "score": 1,
                     "time": "2023-11-13 22:06:43",
                     "feedback": "正確無誤!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 163,
@@ -798,13 +772,13 @@
                     "score": 1,
                     "time": "2023-11-13 23:16:30",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 163,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 78,
@@ -819,7 +793,6 @@
                     "score": 1,
                     "time": "2023-11-13 23:22:26",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 185,
@@ -829,13 +802,13 @@
                     "score": 1,
                     "time": "2023-11-13 23:23:51",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 185,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 79,
@@ -850,7 +823,6 @@
                     "score": 1,
                     "time": "2023-11-13 23:25:46",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 142,
@@ -860,13 +832,13 @@
                     "score": 1,
                     "time": "2023-11-13 23:27:44",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 142,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 79,
@@ -881,7 +853,6 @@
                     "score": 1,
                     "time": "2023-11-13 23:28:42",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 164,
@@ -891,13 +862,13 @@
                     "score": 1,
                     "time": "2023-11-13 23:34:35",
                     "feedback": "讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 164,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 79,
@@ -912,7 +883,6 @@
                     "score": 2,
                     "time": "2023-11-13 23:35:23",
                     "feedback": "空的\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 186,
@@ -922,13 +892,13 @@
                     "score": 2,
                     "time": "2023-11-13 23:37:02",
                     "feedback": "空的",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 186,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 80,
@@ -943,7 +913,6 @@
                     "score": 2,
                     "time": "2023-11-28 08:13:05",
                     "feedback": "getInfo沒有將此方法定義為 無法覆寫(override) 的方法。其他沒問題",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 143,
@@ -953,13 +922,13 @@
                     "score": 1,
                     "time": "2023-11-28 08:18:33",
                     "feedback": "寫得很好!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 143,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 80,
@@ -974,7 +943,6 @@
                     "score": 2,
                     "time": "2023-11-28 08:19:44",
                     "feedback": "沒做功課喔!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 165,
@@ -984,13 +952,13 @@
                     "score": 1,
                     "time": "2023-11-28 08:19:46",
                     "feedback": "可以加一點註解，注意程式碼要空行",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 165,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 80,
@@ -1005,7 +973,6 @@
                     "score": 1,
                     "time": "2023-11-28 08:22:29",
                     "feedback": "程式碼區塊間可以有空行，這樣看起來會更整齊乾淨",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 187,
@@ -1015,13 +982,13 @@
                     "score": 1,
                     "time": "2023-11-28 08:23:44",
                     "feedback": "感覺不要偷懶用HSR比較好",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 187,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 81,
@@ -1036,7 +1003,6 @@
                     "score": 1,
                     "time": "2023-11-28 08:25:14",
                     "feedback": "讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 144,
@@ -1046,13 +1012,13 @@
                     "score": 1,
                     "time": "2023-11-28 08:29:29",
                     "feedback": "讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 144,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 81,
@@ -1067,7 +1033,6 @@
                     "score": 1,
                     "time": "2023-11-28 08:32:59",
                     "feedback": "讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 166,
@@ -1077,13 +1042,13 @@
                     "score": 1,
                     "time": "2023-11-28 08:57:38",
                     "feedback": "good，可以加上註解讓大家更好了解各個小區塊是實現什麼功能",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 166,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 81,
@@ -1098,7 +1063,6 @@
                     "score": 1,
                     "time": "2023-11-28 08:58:48",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 188,
@@ -1108,13 +1072,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:01:43",
                     "feedback": "應該只需要宣告 Railway 陣列，不須宣告其他類別的陣列",
-                    "reviewScore": 3,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 188,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 82,
@@ -1129,7 +1093,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:02:05",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 145,
@@ -1139,13 +1102,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:02:32",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 145,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 82,
@@ -1160,7 +1123,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:04:29",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 167,
@@ -1170,13 +1132,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:05:12",
                     "feedback": "沒寫，全部空白。",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 167,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 82,
@@ -1191,7 +1153,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:05:49",
                     "feedback": "Well!!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 189,
@@ -1201,13 +1162,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:11:32",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 189,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 83,
@@ -1222,7 +1183,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:12:13",
                     "feedback": "Well!!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 146,
@@ -1232,13 +1192,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:13:19",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 146,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 83,
@@ -1253,7 +1213,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:13:48",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 168,
@@ -1263,13 +1222,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:14:23",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 168,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 83,
@@ -1284,7 +1243,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:15:11",
                     "feedback": "輸出All conductor and passenger時 數字沒有對齊",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 190,
@@ -1294,13 +1252,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:16:00",
                     "feedback": "Well!!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 190,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 84,
@@ -1315,7 +1273,6 @@
                     "score": 2,
                     "time": "2023-11-28 09:18:50",
                     "feedback": "沒寫作業",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 147,
@@ -1325,13 +1282,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:29:07",
                     "feedback": "HighSpeedRail裡的calcPrice是回傳int不是double喔",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 147,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 84,
@@ -1346,7 +1303,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:33:30",
                     "feedback": "符合題意 真的很棒:)",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 169,
@@ -1356,13 +1312,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:36:44",
                     "feedback": "請宣告一個railway類別的物件陣列",
-                    "reviewScore": 3,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 169,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 84,
@@ -1377,7 +1333,6 @@
                     "score": 2,
                     "time": "2023-11-28 09:38:14",
                     "feedback": "一片空白",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 191,
@@ -1387,13 +1342,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:40:12",
                     "feedback": "沒寫",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 191,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 85,
@@ -1408,7 +1363,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:43:33",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 148,
@@ -1418,13 +1372,13 @@
                     "score": 2,
                     "time": "2023-11-28 09:43:56",
                     "feedback": "HighSpeedRail 裡面沒有寫到getter&setter ",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 148,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 85,
@@ -1439,7 +1393,6 @@
                     "score": 2,
                     "time": "2023-11-28 09:44:17",
                     "feedback": "沒東西",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 170,
@@ -1449,13 +1402,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:47:35",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 170,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 85,
@@ -1470,7 +1423,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:49:41",
                     "feedback": "讚讚\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 192,
@@ -1480,13 +1432,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:50:50",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 192,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 86,
@@ -1501,7 +1453,6 @@
                     "score": 1,
                     "time": "2023-11-28 09:53:49",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 149,
@@ -1511,13 +1462,13 @@
                     "score": 1,
                     "time": "2023-11-28 09:56:24",
                     "feedback": "讚讚 不過子類別的成員變數記得加private",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 149,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 86,
@@ -1532,7 +1483,6 @@
                     "score": 1,
                     "time": "2023-11-28 10:00:29",
                     "feedback": "讚讚\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 171,
@@ -1542,13 +1492,13 @@
                     "score": 1,
                     "time": "2023-11-28 11:07:08",
                     "feedback": "中規中矩，符合要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 171,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 86,
@@ -1563,7 +1513,6 @@
                     "score": 2,
                     "time": "2023-11-28 11:11:24",
                     "feedback": "HighSpeedRail & Train 的setter &getter沒寫到",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 193,
@@ -1573,13 +1522,13 @@
                     "score": 2,
                     "time": "2023-11-28 11:14:52",
                     "feedback": "HighSpeedRail & Train 的setter &getter沒寫到",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 193,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 87,
@@ -1594,7 +1543,6 @@
                     "score": 1,
                     "time": "2023-11-28 15:07:47",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 150,
@@ -1604,13 +1552,13 @@
                     "score": 1,
                     "time": "2023-11-28 15:09:54",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 150,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 87,
@@ -1625,7 +1573,6 @@
                     "score": 2,
                     "time": "2023-11-28 15:11:37",
                     "feedback": "沒有寫getter、setter",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 172,
@@ -1635,13 +1582,13 @@
                     "score": 1,
                     "time": "2023-11-28 20:52:23",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 172,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 87,
@@ -1656,7 +1603,6 @@
                     "score": 1,
                     "time": "2023-11-28 21:10:43",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 194,
@@ -1666,13 +1612,13 @@
                     "score": 1,
                     "time": "2023-11-28 21:19:20",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 194,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 88,
@@ -1687,7 +1633,6 @@
                     "score": 1,
                     "time": "2023-11-28 22:10:39",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 151,
@@ -1697,13 +1642,13 @@
                     "score": 1,
                     "time": "2023-11-28 22:14:15",
                     "feedback": "對對對\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 151,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 88,
@@ -1718,7 +1663,6 @@
                     "score": 1,
                     "time": "2023-11-28 22:17:27",
                     "feedback": "超強",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 173,
@@ -1728,13 +1672,13 @@
                     "score": 2,
                     "time": "2023-11-29 08:20:16",
                     "feedback": "Exception in thread \"main\" java.util.InputMismatchException\n        at java.base/java.util.Scanner.throwFor(Scanner.java:947)\n        at java.base/java.util.Scanner.next(Scanner.java:1602)\n        at java.base/java.util.Scanner.nextInt(Scanner.java:2267)\n        at java.base/java.util.Scanner.nextInt(Scanner.java:2221)\n        at Main.main(Main.java:31)\n錯誤，你可能要改next();",
-                    "reviewScore": 2,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 173,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 88,
@@ -1749,7 +1693,6 @@
                     "score": 1,
                     "time": "2023-11-29 08:30:51",
                     "feedback": "good!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 195,
@@ -1759,13 +1702,13 @@
                     "score": 1,
                     "time": "2023-11-29 08:39:37",
                     "feedback": "good!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 195,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 89,
@@ -1780,7 +1723,6 @@
                     "score": 1,
                     "time": "2023-11-29 23:42:10",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 152,
@@ -1790,13 +1732,13 @@
                     "score": 1,
                     "time": "2023-11-29 23:42:15",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 152,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 89,
@@ -1811,7 +1753,6 @@
                     "score": 1,
                     "time": "2023-11-29 23:42:20",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 174,
@@ -1821,13 +1762,13 @@
                     "score": 1,
                     "time": "2023-12-02 01:33:37",
                     "feedback": "Nice~~~",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 174,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 89,
@@ -1842,7 +1783,6 @@
                     "score": 1,
                     "time": "2023-12-02 01:40:36",
                     "feedback": "Good!!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 196,
@@ -1852,13 +1792,13 @@
                     "score": 1,
                     "time": "2023-12-02 01:42:38",
                     "feedback": "Well!!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 196,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 90,
@@ -1873,7 +1813,6 @@
                     "score": 1,
                     "time": "2023-12-02 15:10:43",
                     "feedback": "Good，有達成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 153,
@@ -1883,13 +1822,13 @@
                     "score": 1,
                     "time": "2023-12-02 15:13:19",
                     "feedback": "Good，有達成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 153,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 90,
@@ -1904,7 +1843,6 @@
                     "score": 1,
                     "time": "2023-12-02 15:27:52",
                     "feedback": "這檔案怪怪的?????\n為什麼我打不開(IDEA左邊資料夾不會顯示)，而且嘗試很多次，不過單純打開資料夾程式碼我可以看得到\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 175,
@@ -1914,13 +1852,13 @@
                     "score": 1,
                     "time": "2023-12-02 23:21:15",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 175,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 90,
@@ -1935,7 +1873,6 @@
                     "score": 1,
                     "time": "2023-12-02 23:21:28",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 197,
@@ -1945,13 +1882,13 @@
                     "score": 1,
                     "time": "2023-12-02 23:22:37",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 197,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 91,
@@ -1966,7 +1903,6 @@
                     "score": 1,
                     "time": "2023-12-03 00:09:54",
                     "feedback": "GOOD",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 154,
@@ -1976,13 +1912,13 @@
                     "score": 2,
                     "time": "2023-12-03 00:10:41",
                     "feedback": "一樣空的",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 154,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 91,
@@ -1997,7 +1933,6 @@
                     "score": 1,
                     "time": "2023-12-03 00:11:55",
                     "feedback": "有補上了GOOD",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 176,
@@ -2007,13 +1942,13 @@
                     "score": 1,
                     "time": "2023-12-03 00:18:30",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 176,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 91,
@@ -2028,7 +1963,6 @@
                     "score": 1,
                     "time": "2023-12-03 00:21:07",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 198,
@@ -2038,13 +1972,13 @@
                     "score": 1,
                     "time": "2023-12-03 00:23:16",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 198,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 92,
@@ -2059,7 +1993,6 @@
                     "score": 1,
                     "time": "2023-12-03 04:14:36",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 155,
@@ -2069,13 +2002,13 @@
                     "score": 1,
                     "time": "2023-12-03 04:16:41",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 155,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 92,
@@ -2090,7 +2023,6 @@
                     "score": 2,
                     "time": "2023-12-03 04:17:27",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 177,
@@ -2100,13 +2032,13 @@
                     "score": 1,
                     "time": "2023-12-03 11:46:34",
                     "feedback": "改的很棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 177,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 92,
@@ -2121,7 +2053,6 @@
                     "score": 1,
                     "time": "2023-12-03 11:59:08",
                     "feedback": "改得很棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 199,
@@ -2131,13 +2062,13 @@
                     "score": 1,
                     "time": "2023-12-03 12:10:39",
                     "feedback": "下次記得Input high speed rail conductorname: 用print就好，不需要println換行喔",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 199,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         }
     ]
 }

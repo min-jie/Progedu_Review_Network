@@ -2153,6 +2153,25 @@ var nodes = new vis.DataSet();
 // 建立一個新的空邊集合
 var edges = new vis.DataSet();
 
+// 建立一個存放review score的空集合
+var reviewerScores = {};
+
+// 遍歷記錄數據
+recordData.forEach(record => {
+    const reviewerId = record.reviewerId;  // 從記錄中獲取評論者 ID
+    record.round.forEach(rnd => {
+        // 確保評論者 ID 已經在對象中有對應的鍵
+        if (!reviewerScores[reviewerId]) {
+            reviewerScores[reviewerId] = 0; // 初始化評論者的分數為 0
+        }
+        // 將當前 round 的分數加到評論者的總分上
+        reviewerScores[reviewerId] += rnd.score;
+    });
+});
+
+// 現在 reviewerScores 對象包含了每個評論者的分數總和
+console.log(reviewerScores);
+
 // 根據評分來確定節點大小的函數
 function getSizeByReviewScore(reviewScore) {
     if (reviewScore === -1) return 10;   // 如果評分為 -1，節點大小為 10
@@ -2175,7 +2194,7 @@ recordData.forEach(record => {
         var nodeSize = getSizeByReviewScore(rnd.reviewScore);
 
         // 根據評論輪次設定節點顏色，round1 淺藍; round2 深藍
-        var nodeColor = rnd.round === 1 ? '#b0c4de' : '#4682b4';
+        var nodeColor = rnd.round === 1 ? '#94ECFF' : '#738AF4';
 
         // 更新評論者節點資訊，包括標籤和大小
         nodes.update({

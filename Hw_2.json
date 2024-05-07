@@ -13,7 +13,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:03:29",
                     "feedback": "你沒有輸入提示",
-                    "reviewScore": 0,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 14,
@@ -23,13 +22,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:05:03",
                     "feedback": "甚麼都沒打",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 14,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 24,
@@ -44,7 +43,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:06:36",
                     "feedback": "有，100分",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 36,
@@ -54,13 +52,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:15:45",
                     "feedback": "可以加一點點註解\n排版要注意",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 36,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 24,
@@ -75,7 +73,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:15:54",
                     "feedback": "作業未寫",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 58,
@@ -85,13 +82,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:16:05",
                     "feedback": "完成題目要求，且有加上註解",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 58,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 25,
@@ -106,7 +103,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:16:08",
                     "feedback": "作業正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 15,
@@ -116,13 +112,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:16:15",
                     "feedback": "作業正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 15,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 25,
@@ -137,7 +133,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:16:52",
                     "feedback": "沒有完成作業",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 37,
@@ -147,13 +142,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:17:10",
                     "feedback": "寫得很好",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 37,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 25,
@@ -168,7 +163,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:17:57",
                     "feedback": "作業正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 59,
@@ -178,13 +172,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:18:26",
                     "feedback": "作業正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 59,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 26,
@@ -199,7 +193,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:18:36",
                     "feedback": "做得好！",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 16,
@@ -209,13 +202,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:18:47",
                     "feedback": "有轉換成功，不過題目要求變數宣告要是 int (整數型態)，且不用再另外開一個 .java 檔，src 內已經有 Temperature.java",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 16,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 26,
@@ -230,7 +223,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:18:49",
                     "feedback": "卡關了嗎?",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 38,
@@ -240,13 +232,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:19:08",
                     "feedback": "寫得真好，變數名稱太帥拉",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 38,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 26,
@@ -261,7 +253,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:19:12",
                     "feedback": "做得好！",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 60,
@@ -271,13 +262,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:19:23",
                     "feedback": "請不要交白卷",
-                    "reviewScore": 1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 60,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 27,
@@ -292,7 +283,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:19:37",
                     "feedback": "沒有變數哭了",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 17,
@@ -302,13 +292,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:19:43",
                     "feedback": "空空如也",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 17,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 27,
@@ -323,7 +313,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:19:43",
                     "feedback": "沒有完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 39,
@@ -333,13 +322,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:20:04",
                     "feedback": "未輸出提示輸入字串",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 39,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 27,
@@ -354,7 +343,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:20:16",
                     "feedback": "作業未完成",
-                    "reviewScore": 2,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 61,
@@ -364,13 +352,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:20:25",
                     "feedback": "可以多注意排版",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 61,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 28,
@@ -385,7 +373,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:20:37",
                     "feedback": "作業正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 18,
@@ -395,13 +382,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:20:49",
                     "feedback": "請寫完整程式碼",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 18,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 28,
@@ -416,7 +403,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:21:10",
                     "feedback": "我從你空白的程式碼中看到了你的嚴謹、你一絲不苟、你的不屑與狂放不羈的性格，所以我向你獻上我最高的敬意   以及0分",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 40,
@@ -426,13 +412,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:21:40",
                     "feedback": "有料，好猛的攝氏溫度\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 40,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 28,
@@ -447,7 +433,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:22:00",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 62,
@@ -457,13 +442,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:22:03",
                     "feedback": "作業完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 62,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 29,
@@ -478,7 +463,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:22:23",
                     "feedback": "作業完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 19,
@@ -488,13 +472,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:22:36",
                     "feedback": "作業完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 19,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 29,
@@ -509,7 +493,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:22:59",
                     "feedback": "沒東西",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 41,
@@ -519,13 +502,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:23:06",
                     "feedback": "可以加一點點註解",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 41,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 29,
@@ -540,7 +523,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:23:20",
                     "feedback": "請不要交白卷",
-                    "reviewScore": 0,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 63,
@@ -550,13 +532,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:23:45",
                     "feedback": "在最後增加scanner.close();會更好",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 63,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 30,
@@ -571,7 +553,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:24:00",
                     "feedback": "scanner沒有close",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 20,
@@ -581,13 +562,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:24:09",
                     "feedback": "good",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 20,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 30,
@@ -602,7 +583,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:24:38",
                     "feedback": "good\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 42,
@@ -612,13 +592,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:24:57",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 42,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 30,
@@ -633,7 +613,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:25:01",
                     "feedback": "BAD",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 64,
@@ -643,13 +622,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:25:24",
                     "feedback": "很棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 64,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 31,
@@ -664,7 +643,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:25:24",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 21,
@@ -674,13 +652,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:27:08",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 21,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 31,
@@ -695,7 +673,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:27:34",
                     "feedback": "輸出用float之後導致輸出有小數點",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 43,
@@ -705,13 +682,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:28:07",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 43,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 31,
@@ -726,7 +703,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:28:28",
                     "feedback": "在最後加上scanner.close();會更好",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 65,
@@ -736,13 +712,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:50:22",
                     "feedback": "讚欸還有打中文",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 65,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 32,
@@ -757,7 +733,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:51:23",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 22,
@@ -767,13 +742,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:51:57",
                     "feedback": "pass",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 22,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 32,
@@ -788,7 +763,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:52:01",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 44,
@@ -798,13 +772,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:52:16",
                     "feedback": "尚未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 44,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 32,
@@ -819,7 +793,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:52:27",
                     "feedback": "很棒\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 66,
@@ -829,13 +802,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:52:38",
                     "feedback": "pass\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 66,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 33,
@@ -850,7 +823,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:53:03",
                     "feedback": "尚未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 23,
@@ -860,13 +832,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:53:46",
                     "feedback": "看起來甚麼都沒打?",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 23,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 33,
@@ -881,7 +853,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:53:51",
                     "feedback": "尚未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 45,
@@ -891,13 +862,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:54:42",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 45,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 33,
@@ -912,7 +883,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:54:43",
                     "feedback": "請繳交完整程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 67,
@@ -922,13 +892,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:54:47",
                     "feedback": "讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 67,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 34,
@@ -943,7 +913,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:55:24",
                     "feedback": "請繳交完整程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 1,
@@ -953,13 +922,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:55:33",
                     "feedback": "good!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 1,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 34,
@@ -974,7 +943,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:55:49",
                     "feedback": "input.close();\n變數名稱建議命名有意義的名字",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 46,
@@ -984,13 +952,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:56:17",
                     "feedback": "讚讚連度C度F都有標",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 46,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 34,
@@ -1005,7 +973,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:56:21",
                     "feedback": "Nice!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 68,
@@ -1015,13 +982,13 @@
                     "score": 2,
                     "time": "2023-10-03 09:56:33",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 68,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 35,
@@ -1036,7 +1003,6 @@
                     "score": 2,
                     "time": "2023-10-03 09:56:39",
                     "feedback": "你裡面是空的，沒有程式",
-                    "reviewScore": 4,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 2,
@@ -1046,13 +1012,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:56:41",
                     "feedback": "做得好",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 2,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 35,
@@ -1067,7 +1033,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:56:48",
                     "feedback": "GOOD",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 24,
@@ -1077,13 +1042,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:57:01",
                     "feedback": "完美\n",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 24,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 35,
@@ -1098,7 +1063,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:57:26",
                     "feedback": "棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 69,
@@ -1108,13 +1072,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:57:26",
                     "feedback": "scanner.close();",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 69,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 36,
@@ -1129,7 +1093,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:58:13",
                     "feedback": "清楚明瞭",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 3,
@@ -1139,13 +1102,13 @@
                     "score": 1,
                     "time": "2023-10-03 09:58:57",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 3,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 36,
@@ -1160,7 +1123,6 @@
                     "score": 1,
                     "time": "2023-10-03 09:59:48",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 25,
@@ -1170,13 +1132,13 @@
                     "score": 2,
                     "time": "2023-10-03 10:00:31",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 25,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 36,
@@ -1191,7 +1153,6 @@
                     "score": 1,
                     "time": "2023-10-03 10:16:55",
                     "feedback": "有個小問題，輸出是int型態",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 47,
@@ -1201,13 +1162,13 @@
                     "score": 2,
                     "time": "2023-10-03 10:19:14",
                     "feedback": "輸出文字未達要求，並且輸出型態為Int(應為Float、Double)",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 47,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 37,
@@ -1222,7 +1183,6 @@
                     "score": 2,
                     "time": "2023-10-03 10:19:45",
                     "feedback": "未繳交",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 4,
@@ -1232,13 +1192,13 @@
                     "score": 2,
                     "time": "2023-10-03 10:28:00",
                     "feedback": "輸出要是整數，因為題目測試結果沒有小數點",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 4,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 37,
@@ -1253,7 +1213,6 @@
                     "score": 2,
                     "time": "2023-10-03 10:31:17",
                     "feedback": "沒有看到程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 26,
@@ -1263,13 +1222,13 @@
                     "score": 2,
                     "time": "2023-10-03 10:32:34",
                     "feedback": "沒有看到程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 26,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 37,
@@ -1284,7 +1243,6 @@
                     "score": 2,
                     "time": "2023-10-03 10:34:34",
                     "feedback": "\t\n輸出要是整數，因為題目測試結果沒有小數點",
-                    "reviewScore": 2,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 48,
@@ -1294,13 +1252,13 @@
                     "score": 2,
                     "time": "2023-10-03 10:36:01",
                     "feedback": "沒有看到程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 48,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         },
         {
             "auId": 38,
@@ -1315,7 +1273,6 @@
                     "score": 2,
                     "time": "2023-10-03 10:37:02",
                     "feedback": "沒有看到程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 5,
@@ -1325,13 +1282,13 @@
                     "score": 1,
                     "time": "2023-10-05 01:15:11",
                     "feedback": "符合題目要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 5,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 38,
@@ -1346,7 +1303,6 @@
                     "score": 1,
                     "time": "2023-10-05 01:16:15",
                     "feedback": "有轉換成功，不過題目要求變數宣告要是 int (整數型態)，且不用再另外開一個 .java 檔，src 內已經有 Temperature.java",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 27,
@@ -1356,13 +1312,13 @@
                     "score": 1,
                     "time": "2023-10-05 01:16:56",
                     "feedback": "符合題目要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 27,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 38,
@@ -1377,7 +1333,6 @@
                     "score": 1,
                     "time": "2023-10-24 02:41:19",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 49,
@@ -1387,13 +1342,13 @@
                     "score": 2,
                     "time": "2023-10-24 08:32:40",
                     "feedback": "Wrong Answer: City.java第12行有錯誤。Main.java cityPopulation變數有錯誤",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 49,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 39,
@@ -1408,7 +1363,6 @@
                     "score": 1,
                     "time": "2023-10-24 08:43:21",
                     "feedback": "cityPopulation值不同有差嗎?",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 6,
@@ -1418,13 +1372,13 @@
                     "score": 2,
                     "time": "2023-10-24 08:44:52",
                     "feedback": "作業沒空寫?",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 6,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 39,
@@ -1439,7 +1393,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:29:10",
                     "feedback": "中規中矩",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 28,
@@ -1449,13 +1402,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:31:39",
                     "feedback": "中規中矩，附加了輸入方式",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 28,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 39,
@@ -1470,7 +1423,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:32:09",
                     "feedback": "",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 50,
@@ -1480,13 +1432,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:32:53",
                     "feedback": "中規中矩",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 50,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 40,
@@ -1501,7 +1453,6 @@
                     "score": 2,
                     "time": "2023-10-24 09:34:47",
                     "feedback": "Without any code in.",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 7,
@@ -1511,13 +1462,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:38:04",
                     "feedback": "Good Job!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 7,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 40,
@@ -1532,7 +1483,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:38:15",
                     "feedback": "都有達到老師題目的要求 很棒:D!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 29,
@@ -1542,13 +1492,13 @@
                     "score": 2,
                     "time": "2023-10-24 09:38:45",
                     "feedback": "沒有程式碼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 29,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 40,
@@ -1563,7 +1513,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:40:37",
                     "feedback": "Good Job.",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 51,
@@ -1573,13 +1522,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:40:41",
                     "feedback": "程式碼清晰簡潔有力",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 51,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 41,
@@ -1594,7 +1543,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:41:35",
                     "feedback": "不同於%.2f 反而用的Math.round 很酷又很棒!!",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 8,
@@ -1604,13 +1552,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:41:58",
                     "feedback": "跟助教講解的不同，用了Math.round很特別",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 8,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 41,
@@ -1625,7 +1573,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:42:36",
                     "feedback": "程式碼清晰簡潔有力，還有貼心的註解",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 30,
@@ -1635,13 +1582,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:44:28",
                     "feedback": "寫了很多註解，很容易理解",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 30,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 41,
@@ -1656,7 +1603,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:45:18",
                     "feedback": "在轉換人口裡面的變數盡量不要用m 可以換一個更能讓人一眼就明白的變數名稱 雖然題目沒有要求可以自己輸入城市和人口 但是你做出來了 很棒 但其實不用這麼多",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 52,
@@ -1666,13 +1612,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:46:28",
                     "feedback": "跟助教不同，用了Math.round很獨特",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 52,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 42,
@@ -1687,7 +1633,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:48:24",
                     "feedback": "寫法不太一樣,值得學習",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 9,
@@ -1697,13 +1642,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:48:52",
                     "feedback": "可",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 9,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 42,
@@ -1718,7 +1663,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:50:04",
                     "feedback": "可",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 31,
@@ -1728,13 +1672,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:50:56",
                     "feedback": "正確 符合要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 31,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 42,
@@ -1749,7 +1693,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:51:12",
                     "feedback": "運行了都沒有看到輸出，研究你的程式好久才發現是需要我先輸入，先輸出提示讓執行者知道要輸出比較好歐，或是至少寫上註解讓人知道要輸入比較好，不過運行上是沒有問題的，讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 53,
@@ -1759,13 +1702,13 @@
                     "score": 2,
                     "time": "2023-10-24 09:54:14",
                     "feedback": "output有誤，數字打錯",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 53,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 43,
@@ -1780,7 +1723,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:54:14",
                     "feedback": "符合規格，讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 10,
@@ -1790,13 +1732,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:54:38",
                     "feedback": "有歸零 讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 10,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 43,
@@ -1811,7 +1753,6 @@
                     "score": 1,
                     "time": "2023-10-24 09:57:01",
                     "feedback": "還可以手動輸入城市和人口 非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 32,
@@ -1821,13 +1762,13 @@
                     "score": 1,
                     "time": "2023-10-24 09:58:42",
                     "feedback": "讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 32,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 43,
@@ -1842,7 +1783,6 @@
                     "score": 1,
                     "time": "2023-10-24 10:23:08",
                     "feedback": "right",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 54,
@@ -1852,13 +1792,13 @@
                     "score": 1,
                     "time": "2023-10-24 10:25:40",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 54,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 44,
@@ -1873,7 +1813,6 @@
                     "score": 1,
                     "time": "2023-10-24 10:26:23",
                     "feedback": "正確",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 11,
@@ -1883,13 +1822,13 @@
                     "score": 1,
                     "time": "2023-10-24 10:47:03",
                     "feedback": "可以加上註解會更容易理解 code",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 11,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 44,
@@ -1904,7 +1843,6 @@
                     "score": 1,
                     "time": "2023-10-24 10:49:38",
                     "feedback": "可以加上註解，這樣可以更清楚每一行 code 在做什麼",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 33,
@@ -1914,13 +1852,13 @@
                     "score": 1,
                     "time": "2023-10-24 10:52:09",
                     "feedback": "可以不用寫輸入，直接帶入資料即可",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 33,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 44,
@@ -1935,7 +1873,6 @@
                     "score": 1,
                     "time": "2023-10-24 11:51:26",
                     "feedback": "程式碼寫的很精簡，計算部分直接一行解決，很美觀，讚讚",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 55,
@@ -1945,13 +1882,13 @@
                     "score": 1,
                     "time": "2023-10-24 11:54:43",
                     "feedback": "數學計算的部分，可以自行簡化，不然這樣寫一行解的意義就不見了\n但整體來說還是很精簡，做的很棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 55,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 45,
@@ -1966,7 +1903,6 @@
                     "score": 1,
                     "time": "2023-10-24 11:57:38",
                     "feedback": "一樣是一行解決的部分，可以再修改一些，不必要太多的運算出現\n但整體寫的還是很棒、很精簡",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 12,
@@ -1976,13 +1912,13 @@
                     "score": 1,
                     "time": "2023-10-24 14:51:18",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 12,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 45,
@@ -1997,7 +1933,6 @@
                     "score": 1,
                     "time": "2023-10-24 14:52:14",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 34,
@@ -2007,13 +1942,13 @@
                     "score": 1,
                     "time": "2023-10-24 14:54:56",
                     "feedback": "非常棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 34,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 45,
@@ -2028,7 +1963,6 @@
                     "score": 1,
                     "time": "2023-10-25 12:46:39",
                     "feedback": "完成 很棒",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 56,
@@ -2038,13 +1972,13 @@
                     "score": 1,
                     "time": "2023-10-25 12:47:55",
                     "feedback": "有達到要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 56,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 46,
@@ -2059,7 +1993,6 @@
                     "score": 1,
                     "time": "2023-10-25 13:54:24",
                     "feedback": "看起來沒問題",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 13,
@@ -2069,13 +2002,13 @@
                     "score": 1,
                     "time": "2023-10-25 13:56:45",
                     "feedback": "有符合要求",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 13,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 2
         },
         {
             "auId": 46,
@@ -2090,7 +2023,6 @@
                     "score": 2,
                     "time": "2023-10-25 13:57:36",
                     "feedback": "作業未完成",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 35,
@@ -2100,13 +2032,13 @@
                     "score": 1,
                     "time": "2023-10-25 21:52:56",
                     "feedback": "可行 但不能隨意更改輸入資料",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 1,
                     "pmId": 35,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 3
         },
         {
             "auId": 46,
@@ -2121,7 +2053,6 @@
                     "score": 2,
                     "time": "2023-10-25 21:54:11",
                     "feedback": "空的 但不確定是否為我這邊的問題",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 57,
@@ -2131,13 +2062,13 @@
                     "score": 2,
                     "time": "2023-10-25 21:54:59",
                     "feedback": "空的",
-                    "reviewScore": -1,
                     "teacherReview": 0,
                     "status": 3,
                     "pmId": 57,
                     "round": 2
                 }
-            ]
+            ],
+            "totalScore": 4
         }
     ]
 }

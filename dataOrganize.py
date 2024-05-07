@@ -37,7 +37,7 @@ def organize_data_based_on_round(records):
             "score": record["score"],
             "time": record["time"],
             "feedback": record["feedback"],
-            "reviewScore": record["reviewScore"],
+            #"reviewScore": record["reviewScore"],
             "teacherReview": record["teacherReview"],
             "status": record["status"],
             "pmId": record["pmId"],
@@ -47,8 +47,7 @@ def organize_data_based_on_round(records):
     # 將組織好的資料轉換成最終格式
     return {"recordData": list(organized_data.values())}
 
-# 使用過濾後的資料而不是 original_records
-# transformed_data = organize_data_based_on_round(organized_data)   
+
 
 
 # 假設的原始資料
