@@ -1,0 +1,30 @@
+"//_comment": "此為所存資料的格式"
+
+{
+    "hwNumber": "2",
+    "authorUsername": "D0909463",
+    "authorName": "朱禎城",
+    "reviewerUsername": "D1149604",
+    "reviewerName": "朱苡甄",
+    "round": [
+        {
+            "round": 1,
+            "score": 1,
+            "time": "2023-10-03 09:03:29",
+            "feedback": "你沒有輸入提示",
+            "teacherReview": 0,
+            "status": 3,
+            "passOrNot": "fail"
+        },
+        {
+            "round": 2,
+            "score": 2,
+            "time": "2023-10-03 09:05:03",
+            "feedback": "甚麼都沒打",
+            "teacherReview": 0,
+            "status": 3,
+            "passOrNot": "pass"
+        }
+    ],
+    "totalScore": 4
+}

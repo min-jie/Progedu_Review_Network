@@ -2147,7 +2147,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
 // 建立一個新的空節點集合
 var nodes = new vis.DataSet();
 // 建立一個新的空邊集合
@@ -2155,6 +2154,8 @@ var edges = new vis.DataSet();
 
 // 建立一個存放review score的空集合
 var reviewerScores = {};
+let reviewerCounts = {};
+
 
 // 遍歷記錄數據
 recordData.forEach(record => {
@@ -2163,45 +2164,63 @@ recordData.forEach(record => {
         // 確保評論者 ID 已經在對象中有對應的鍵
         if (!reviewerScores[reviewerId]) {
             reviewerScores[reviewerId] = 0; // 初始化評論者的分數為 0
+            reviewerCounts[reviewerId] = 0;
         }
         // 將當前 round 的分數加到評論者的總分上
-        reviewerScores[reviewerId] += rnd.score;
+        //reviewerScores[reviewerId] += rnd.score;
+        reviewerScores[reviewerId] += rnd.reviewScore; // 加上這行就會圖跑不出來
+        reviewerCounts[reviewerId]++;
     });
 });
+let avgReviewScores = {};
+for (let reviewerId in reviewerScores) {
+    if (reviewerCounts[reviewerId] > 0) { // Ensure there's at least one valid score
+        avgReviewScores[reviewerId] = reviewerScores[reviewerId] / reviewerCounts[reviewerId];
+    } else {
+        avgReviewScores[reviewerId] = 0;  // Handle cases with no valid scores if necessary
+    }
+}
+
+// Output the average review scores
+console.log(avgReviewScores);
 
 // 現在 reviewerScores 對象包含了每個評論者的分數總和
 console.log(reviewerScores);
 
 // 根據評分來確定節點大小的函數
-function getSizeByReviewScore(reviewScore) {
-    if (reviewScore === -1) return 10;   // 如果評分為 -1，節點大小為 10
-    if (reviewScore === 0) return 100;   // 如果評分為 0，節點大小為 100
-    if (reviewScore === 2) return 200;   // 如果評分為 2，節點大小為 200
-    if (reviewScore === 4) return 300;   // 如果評分為 4，節點大小為 300
-    if (reviewScore === 5) return 400;   // 如果評分為 5，節點大小為 400
+function getSizeByReviewScore(avgReviewScores) {
+    if (avgReviewScores > 0 && avgReviewScores < 1) return 100;   // 如果評分為 0，節點大小為 100
+    if (avgReviewScores == 1) return 200;   // 如果評分為 1，節點大小為 200
+    if (avgReviewScores == 2) return 300;   // 如果評分為 2，節點大小為 300
+    if (avgReviewScores == 3) return 400;   // 如果評分為 3，節點大小為 400
+    if (avgReviewScores == 4) return 500;   // 如果評分為 3，節點大小為 400
     return 10;  // 其他情況預設為最小大小 10
 }
+
+
 
 // 遍歷每條記錄，為每個交互創建節點和邊
 recordData.forEach(record => {
     const authorNodeId = `author-${record.auId}`;
     const reviewerNodeId = `reviewer-${record.reviewId}`;
 
-    nodes.update({id: authorNodeId, label: record.authorName});
+    // 更新作者節點資訊
+    nodes.update({
+        id: authorNodeId,
+        label: record.authorName,
+        color: {background: '#FFD7DE', border: '#FFC0CB'} // 統一設置為粉紅色
+    });
 
     record.round.forEach(rnd => {
         var isCommentEmpty = rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
-        var nodeSize = getSizeByReviewScore(rnd.reviewScore);
-
-        // 根據評論輪次設定節點顏色，round1 淺藍; round2 深藍
-        var nodeColor = rnd.round === 1 ? '#94ECFF' : '#738AF4';
+        var nodeSize = getSizeByReviewScore(rnd.avgReviewScores);
 
         // 更新評論者節點資訊，包括標籤和大小
         nodes.update({
             id: reviewerNodeId,
             label: record.reviewerName,
             value: nodeSize,
-            color: {background: nodeColor, border: '#4682b4'}
+            color: {background: '#FFD7DE', border: '#FFC0CB'}
         });
 
         // 添加邊，設置顏色和樣式
@@ -2210,7 +2229,7 @@ recordData.forEach(record => {
             to: authorNodeId,
             arrows: 'to',
             dashes: isCommentEmpty || rnd.reviewScore === 0,  // 沒有評論或評分為0時使用虛線
-            color: isCommentEmpty ? 'red' : 'blue'  // 沒有評論時為紅色，否則為藍色
+            color: isCommentEmpty ? 'red' : '199FD8'  // 沒有評論時為紅色，否則為藍色
         });
 
         // 如果評論者沒有提供評論，更新評論者節點的顏色為紅色
@@ -2234,21 +2253,23 @@ var data = {
 var options = {
     nodes: {
         scaling: {
-            min: 10,
-            max: 400,
-            label: {
-                enabled: true,
-                min: 14,
-                max: 200,
-                maxVisible: 30,
-                drawThreshold: 5
+            min: 10,                      // 節點大小的最小值為 10
+            max: 500,                     // 節點大小的最大值為 400
+            label: {                      // 關於節點標籤的配置
+                enabled: true,            // 啟用標籤顯示
+                min: 14,                  // 標籤字體的最小大小為 14
+                max: 200,                 // 標籤字體的最大大小為 200
+                maxVisible: 30,           // 最大可見範圍為 30 單位
+                drawThreshold: 5          // 繪制閾值為 5
             },
             customScalingFunction: function (min, max, total, value) {
-                if (value <= 10) return 0.1;
-                if (value <= 100) return 0.25;
-                if (value <= 200) return 0.5;
-                if (value <= 300) return 0.75;
-                return 1; // 對應 400 大小
+                // 自定義的節點大小調整函數，根據節點的值（value）決定其大小
+                if (value <= 10) return 0.1;  // 如果值小於或等於 10，則大小比例為 0.1
+                if (value <= 100) return 0.25; // 如果值小於或等於 100，則大小比例為 0.25
+                if (value <= 200) return 0.5;  // 如果值小於或等於 200，則大小比例為 0.5
+                if (value <= 300) return 0.75; // 如果值小於或等於 300，則大小比例為 0.75
+                if (value <= 400) return 1.5; // 如果值小於或等於 400，則大小比例為 1
+                return 2;                      // 如果值大於 300（直至 400），大小比例為 1
             }
         }
     }
@@ -2257,8 +2278,5 @@ var options = {
 // 創建一個新的 network，並將其附加到容器上
 var network = new vis.Network(container, data, options);
 
-
-
-  
 
 });
