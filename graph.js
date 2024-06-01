@@ -2159,7 +2159,8 @@ let reviewerCounts = {};
 
 // 遍歷記錄數據
 recordData.forEach(record => {
-    const reviewerId = record.reviewerId;  // 從記錄中獲取評論者 ID
+    const reviewerId = record.reviewId;  // 從記錄中獲取評論者 ID
+
     record.round.forEach(rnd => {
         // 確保評論者 ID 已經在對象中有對應的鍵
         if (!reviewerScores[reviewerId]) {
@@ -2172,6 +2173,7 @@ recordData.forEach(record => {
         reviewerCounts[reviewerId]++;
     });
 });
+
 let avgReviewScores = {};
 for (let reviewerId in reviewerScores) {
     if (reviewerCounts[reviewerId] > 0) { // Ensure there's at least one valid score
@@ -2189,15 +2191,13 @@ console.log(reviewerScores);
 
 // 根據評分來確定節點大小的函數
 function getSizeByReviewScore(avgReviewScores) {
-    if (avgReviewScores > 0 && avgReviewScores < 1) return 100;   // 如果評分為 0，節點大小為 100
-    if (avgReviewScores == 1) return 200;   // 如果評分為 1，節點大小為 200
-    if (avgReviewScores == 2) return 300;   // 如果評分為 2，節點大小為 300
-    if (avgReviewScores == 3) return 400;   // 如果評分為 3，節點大小為 400
-    if (avgReviewScores == 4) return 500;   // 如果評分為 3，節點大小為 400
+    if (avgReviewScores > 0 && avgReviewScores < 1) return 100;
+    if (avgReviewScores == 1) return 200;
+    if (avgReviewScores == 2) return 300;
+    if (avgReviewScores == 3) return 400;
+    if (avgReviewScores == 4) return 500;
     return 10;  // 其他情況預設為最小大小 10
 }
-
-
 
 // 遍歷每條記錄，為每個交互創建節點和邊
 recordData.forEach(record => {
@@ -2223,24 +2223,26 @@ recordData.forEach(record => {
             color: {background: '#FFD7DE', border: '#FFC0CB'}
         });
 
+        // 決定邊的顏色
+        let edgeColor = isCommentEmpty ? 'red' : '#199FD8';
+        if (rnd.round === 2) {
+            const firstRound = record.round.find(r => r.round === 1);
+            if (firstRound && firstRound.score === 1) {
+                edgeColor = '#3CE62D';  // 第一回合分數為1，第二回合設為綠色
+            }
+        }
+
         // 添加邊，設置顏色和樣式
         edges.add({
             from: reviewerNodeId,
             to: authorNodeId,
             arrows: 'to',
-            dashes: isCommentEmpty || rnd.reviewScore === 0,  // 沒有評論或評分為0時使用虛線
-            color: isCommentEmpty ? 'red' : '199FD8'  // 沒有評論時為紅色，否則為藍色
+            dashes: isCommentEmpty || rnd.reviewScore === 0,
+            color: edgeColor
         });
-
-        // 如果評論者沒有提供評論，更新評論者節點的顏色為紅色
-        if (isCommentEmpty) {
-            nodes.update({
-                id: reviewerNodeId,
-                color: {background: 'red', border: 'darkred'}
-            });
-        }
     });
 });
+
 
 // 獲取容器元素，通常是一個div，用來展示網絡圖
 var container = document.getElementById('reviewNetwork');

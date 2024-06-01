@@ -47,21 +47,36 @@ def organize_data_based_on_round(records):
             "pmId": record["pmId"]
         })
 
-        # Collect scores for calculating average
-        reviewer = record["reviewerName"]
-        if reviewer not in reviewer_scores:
-            reviewer_scores[reviewer] = []
-        reviewer_scores[reviewer].append(record["reviewScore"])
+        # Collect scores for calculating average, excluding reviewScore of -1
+        if record["reviewScore"] != -1:
+            reviewer = record["reviewerName"]
+            if reviewer not in reviewer_scores:
+                reviewer_scores[reviewer] = []
+            reviewer_scores[reviewer].append(record["reviewScore"])
 
     final_data = []
     for key, value in organized_data.items():
-        avg_score = None
-        if len(reviewer_scores[value['reviewerName']]) > 0:
-            avg_score = sum(reviewer_scores[value['reviewerName']]) / len(reviewer_scores[value['reviewerName']])
-        value['avgReviewScore'] = avg_score if avg_score is not None else "No reviews"
+        reviewer_name = value['reviewerName']
+        # 只考慮非 -1 的分數
+        valid_scores = [score for score in reviewer_scores.get(reviewer_name, []) if score != -1]
+        
+        if valid_scores:
+            # 如果存在有效分數，則計算平均分
+            avg_score = sum(valid_scores) / 6
+        # else:
+        #     # 如果沒有任何有效分數，可以選擇給一個合理的預設值，或維持不變
+        #     avg_score = 0  # 此處以0為例，具體數值應根據業務規則決定
+
+        value['avgReviewScore'] = avg_score
         final_data.append(value)
 
+
+
+    
+    
+
     return {"recordData": final_data}
+
 
 
 def main():
