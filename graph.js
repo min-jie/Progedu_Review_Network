@@ -2218,135 +2218,140 @@ document.addEventListener("DOMContentLoaded", function () {
       avgFeedbackLength: 7.166666666666667,
     },
   ];
+// 建立一个新的空节点集合
+var nodes = new vis.DataSet();
+// 建立一个新的空边集合
+var edges = new vis.DataSet();
 
+// 建立一个存放review score的空集合
+var reviewerScores = {};
+let reviewerCounts = {};
 
-  // 建立一個新的空節點集合
-  var nodes = new vis.DataSet();
-  // 建立一個新的空邊集合
-  var edges = new vis.DataSet();
-
-  // 建立一個存放review score的空集合
-  var reviewerScores = {};
-  let reviewerCounts = {};
-
-  // 遍歷記錄數據
-  recordData.forEach((record) => {
-    const reviewerId = record.reviewId; // 從記錄中獲取評論者 ID
-
-    record.round.forEach((rnd) => {
-      // 確保評論者 ID 已經在對象中有對應的鍵
-      if (!reviewerScores[reviewerId]) {
-        reviewerScores[reviewerId] = 0; // 初始化評論者的分數為 0
-        reviewerCounts[reviewerId] = 0;
-      }
-      // 將當前 round 的分數加到評論者的總分上
-      //reviewerScores[reviewerId] += rnd.score;
-      reviewerScores[reviewerId] += rnd.reviewScore; // 6/1 加上這行就會圖跑不出來
-      reviewerCounts[reviewerId]++;
-    });
-  });
-
-  let avgReviewScores = {};
-  for (let reviewerId in reviewerScores) {
-    if (reviewerCounts[reviewerId] > 0) {
-      // Ensure there's at least one valid score
-      avgReviewScores[reviewerId] =
-        reviewerScores[reviewerId] / reviewerCounts[reviewerId];
-    } else {
-      avgReviewScores[reviewerId] = 0; // Handle cases with no valid scores if necessary
-    }
-  }
-
-
-  // 根據評分來確定節點大小的函數
-  function getSizeByReviewScore(avgReviewScores) {
-    if (avgReviewScores > 0 && avgReviewScores < 1) return 100;
-    if (avgReviewScores == 1) return 200;
-    if (avgReviewScores == 2) return 300;
-    if (avgReviewScores == 3) return 400;
-    if (avgReviewScores == 4) return 500;
-    return 10; // 其他情況預設為最小大小 10
-  }
-
-  // 遍历每条记录,为每个交互创建节点和边
+// 遍历记录数据
 recordData.forEach((record) => {
-    const authorNodeId = `author-${record.authorUsername}`;
-    const reviewerNodeId = `reviewer-${record.reviewId}`;
-  
-    // 更新作者节点信息
-    nodes.update({
-      id: authorNodeId,
-      label: record.authorName,
-      color: { background: "#FFD7DE", border: "#FFC0CB" }, // 统一设置为粉红色
-    });
-  
-    record.round.forEach((rnd) => {
-      var isCommentEmpty =
-        rnd.feedback.trim() === "" || rnd.feedback === "无回馈";
-      var nodeSize = getSizeByReviewScore(avgReviewScores[reviewerNodeId]);
-  
-      // 更新评论者节点信息,包括标签和大小
-      nodes.update({
-        id: reviewerNodeId,
-        label: record.reviewerName,
-        value: nodeSize,
-        color: { background: "#FFD7DE", border: "#FFC0CB" },
-      });
-  
-      // 决定边的颜色
-      let edgeColor = isCommentEmpty ? "red" : "#199FD8";
-      if (rnd.status === 1) {
-        const firstRound = record.round.find((r) => r.status === 3);
-        if (firstRound && firstRound.score === 1) {
-          edgeColor = "#3CE62D"; // 第一回合分数为1,第二回合设为绿色
-        }
-      }
-  
-      // 添加边,设置颜色和样式
-      edges.add({
-        from: reviewerNodeId,
-        to: authorNodeId,
-        arrows: "to",
-        dashes: isCommentEmpty,
-        color: edgeColor,
-      });
-    });
+  const reviewerId = record.reviewId; // 从记录中获取评论者 ID
+
+  record.round.forEach((rnd) => {
+    // 确保评论者 ID 已经在对象中有对应的键
+    if (!reviewerScores[reviewerId]) {
+      reviewerScores[reviewerId] = 0; // 初始化评论者的分数为 0
+      reviewerCounts[reviewerId] = 0;
+    }
+    // 将当前 round 的分数加到评论者的总分上
+    reviewerScores[reviewerId] += rnd.reviewScore;
+    reviewerCounts[reviewerId]++;
+  });
+});
+
+let avgReviewScores = {};
+for (let reviewerId in reviewerScores) {
+  if (reviewerCounts[reviewerId] > 0) {
+    // Ensure there's at least one valid score
+    avgReviewScores[reviewerId] =
+      reviewerScores[reviewerId] / reviewerCounts[reviewerId];
+  } else {
+    avgReviewScores[reviewerId] = 0; // Handle cases with no valid scores if necessary
+  }
+}
+
+// 找出最大字数
+const maxWords = Math.max(...recordData.flatMap((record) => record.round.map((rnd) => rnd.feedback.trim().length)));
+console.log(maxWords)
+
+// 遍历每条记录,为每个交互创建节点和边
+recordData.forEach((record) => {
+  const authorNodeId = `author-${record.authorUsername}`;
+  const reviewerNodeId = `reviewer-${record.reviewId}`;
+
+  // 更新作者节点信息
+  nodes.update({
+    id: authorNodeId,
+    label: record.authorName,
+    color: { background: "#FFD7DE", border: "#FFC0CB" }, // 统一设置为粉红色
   });
 
-  // 獲取容器元素，通常是一個div，用來展示網絡圖
-  var container = document.getElementById("reviewNetwork");
-  // 構造網絡圖所需的數據，包括節點和邊
-  var data = {
-    nodes: nodes,
-    edges: edges,
-  };
+  record.round.forEach((rnd) => {
+    var isCommentEmpty =
+      rnd.feedback.trim() === "" || rnd.feedback === "无回馈";
+    var nodeSize = getSizeByReviewScore(avgReviewScores[reviewerNodeId]);
 
-  var options = {
-    nodes: {
-      scaling: {
-        min: 10, // 節點大小的最小值為 10
-        max: 500, // 節點大小的最大值為 400
-        label: {
-          // 關於節點標籤的配置
-          enabled: true, // 啟用標籤顯示
-          min: 14, // 標籤字體的最小大小為 14
-          max: 200, // 標籤字體的最大大小為 200
-          maxVisible: 30, // 最大可見範圍為 30 單位
-          drawThreshold: 5, // 繪制閾值為 5
-        },
-        customScalingFunction: function (min, max, total, value) {
-          // 自定義的節點大小調整函數，根據節點的值（value）決定其大小
-          if (value <= 10) return 0.1; // 如果值小於或等於 10，則大小比例為 0.1
-          if (value <= 100) return 0.25; // 如果值小於或等於 100，則大小比例為 0.25
-          if (value <= 200) return 0.5; // 如果值小於或等於 200，則大小比例為 0.5
-          if (value <= 300) return 0.75; // 如果值小於或等於 300，則大小比例為 0.75
-          if (value <= 400) return 1.5; // 如果值小於或等於 400，則大小比例為 1
-          return 2; // 如果值大於 300（直至 400），大小比例為 1
-        },
+    // 计算正规化分数和对应的颜色,创建节点
+    const normalizedScore = (rnd.feedback.trim().length / maxWords) * 100;
+    const lightness = 98 - normalizedScore * 0.7; // 计算亮度,范围从90%到10%
+    const nodeColor = `hsl(350, 100%, ${lightness}%)`;
+
+    // 更新评论者节点信息,包括标签和大小
+    nodes.update({
+      id: reviewerNodeId,
+      label: record.reviewerName,
+      value: nodeSize,
+      color: { background: nodeColor, border: nodeColor },
+    });
+
+    // 决定边的颜色
+    let edgeColor = isCommentEmpty ? "red" : "#199FD8";
+    if (rnd.status === 1) {
+      const firstRound = record.round.find((r) => r.status === 3);
+      if (firstRound && firstRound.score === 1) {
+        edgeColor = "#3CE62D"; // 第一回合分数为1,第二回合设为绿色
+      }
+    }
+
+    // 添加边,设置颜色和样式
+    edges.add({
+      from: reviewerNodeId,
+      to: authorNodeId,
+      arrows: "to",
+      dashes: isCommentEmpty,
+      color: edgeColor,
+    });
+  });
+});
+
+// 根据评分来确定节点大小的函数
+function getSizeByReviewScore(avgReviewScore) {
+  if (avgReviewScore > 0 && avgReviewScore < 1) return 100;
+  if (avgReviewScore == 1) return 200;
+  if (avgReviewScore == 2) return 300;
+  if (avgReviewScore == 3) return 400;
+  if (avgReviewScore == 4) return 500;
+  return 10; // 其他情况默认为最小大小 10
+}
+
+// 获取容器元素,通常是一个div,用来展示网络图
+var container = document.getElementById("reviewNetwork");
+// 构造网络图所需的数据,包括节点和边
+var data = {
+  nodes: nodes,
+  edges: edges,
+};
+
+var options = {
+  nodes: {
+    scaling: {
+      min: 10, // 节点大小的最小值为 10
+      max: 500, // 节点大小的最大值为 400
+      label: {
+        // 关于节点标签的配置
+        enabled: true, // 启用标签显示
+        min: 14, // 标签字体的最小大小为 14
+        max: 200, // 标签字体的最大大小为 200
+        maxVisible: 30, // 最大可见范围为 30 单位
+        drawThreshold: 5, // 绘制阈值为 5
+      },
+      customScalingFunction: function (min, max, total, value) {
+        // 自定义的节点大小调整函数,根据节点的值（value）决定其大小
+        if (value <= 10) return 0.1; // 如果值小于或等于 10,则大小比例为 0.1
+        if (value <= 100) return 0.25; // 如果值小于或等于 100,则大小比例为 0.25
+        if (value <= 200) return 0.5; // 如果值小于或等于 200,则大小比例为 0.5
+        if (value <= 300) return 0.75; // 如果值小于或等于 300,则大小比例为 0.75
+        if (value <= 400) return 1.5; // 如果值小于或等于 400,则大小比例为 1
+        return 2; // 如果值大于 300（直至 400）,大小比例为 1
       },
     },
-  };
+  },
+};
 
-  // 創建一個新的 network，並將其附加到容器上
-  var network = new vis.Network(container, data, options);
+// 创建一个新的 network,并将其附加到容器上
+var network = new vis.Network(container, data, options);
 });
