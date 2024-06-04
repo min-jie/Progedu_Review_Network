@@ -18,25 +18,28 @@ def write_json_file(data, file_path):
 def filter_and_organize_data(input_data, target_aId):
     filtered_data = [record for record in input_data['recordData'] if record['aId'] == target_aId]
     return {"recordData": filtered_data}
+
 def organize_data_based_on_round(records):
     organized_data = {}
     reviewer_scores = {}
+    reviewer_feedback_lengths = {}
 
     for record in records['recordData']:
         key = (record['auId'], record['reviewId'])
 
         if key not in organized_data:
             organized_data[key] = {
+                "reviewId": record['reviewId'],
                 "hwNumber": record["aId"],
                 "reviewerUsername": record["reviewerUsername"],
                 "reviewerName": record["reviewerName"],
                 "authorUsername": record["authorUsername"],
                 "authorName": record["authorName"],
-                "rounds": []  # Prepare to collect round details
+                "round": []  # Prepare to collect round details
             }
         
         # Append current record's round details
-        organized_data[key]['rounds'].append({
+        organized_data[key]['round'].append({
             "round": record["round"],
             "score": record["score"],
             "time": record["time"],
@@ -54,26 +57,41 @@ def organize_data_based_on_round(records):
                 reviewer_scores[reviewer] = []
             reviewer_scores[reviewer].append(record["reviewScore"])
 
+        # Collect feedback lengths for calculating average
+        reviewer = record["reviewerName"]
+        feedback_length = len(record["feedback"].strip())
+        if reviewer not in reviewer_feedback_lengths:
+            reviewer_feedback_lengths[reviewer] = []
+        reviewer_feedback_lengths[reviewer].append(feedback_length)
+
+    final_data = []
     final_data = []
     for key, value in organized_data.items():
         reviewer_name = value['reviewerName']
+        author_name = value['authorName']
+
         # 只考慮非 -1 的分數
         valid_scores = [score for score in reviewer_scores.get(reviewer_name, []) if score != -1]
         
         if valid_scores:
             # 如果存在有效分數，則計算平均分
-            avg_score = sum(valid_scores) / 6
-        # else:
-        #     # 如果沒有任何有效分數，可以選擇給一個合理的預設值，或維持不變
-        #     avg_score = 0  # 此處以0為例，具體數值應根據業務規則決定
+            avg_score = sum(valid_scores) / len(valid_scores)
+        else:
+            avg_score = 0  # 如果沒有任何有效分數，設置為0
 
         value['avgReviewScore'] = avg_score
+
+        # 計算reviewer給出的feedback平均字數
+        feedback_lengths = reviewer_feedback_lengths.get(reviewer_name, [])
+        if feedback_lengths:
+            avg_feedback_length = sum(feedback_lengths) / len(feedback_lengths)
+        else:
+            avg_feedback_length = 0
+
+        # 將平均字數存儲在每條記錄中
+        value['avgFeedbackLength'] = avg_feedback_length
+
         final_data.append(value)
-
-
-
-    
-    
 
     return {"recordData": final_data}
 

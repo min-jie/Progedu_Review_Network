@@ -1,74 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
     <style>
-        #mynetwork {
-            width: 800px;
-            height: 600px;
-            border: 1px solid lightgray;
-        }
+      #mynetwork {
+        width: 800px;
+        height: 600px;
+        border: 1px solid lightgray;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="mynetwork"></div>
     <script>
-        // 建立一個新的空節點集合
-        var nodes = new vis.DataSet();
+      // 建立一個新的空節點集合
+      var nodes = new vis.DataSet();
 
-        // 假設的資料
-        const reviewers = [
-            { id: 1, feedback: "".padEnd(0, 'a') },
-            { id: 2, feedback: "".padEnd(5, 'a') },
-            { id: 3, feedback: "".padEnd(10, 'a') },
-            { id: 4, feedback: "".padEnd(15, 'a') },
-            { id: 5, feedback: "".padEnd(20, 'a') },
-            { id: 6, feedback: "".padEnd(25, 'a') },
-            { id: 7, feedback: "".padEnd(30, 'a') },
-            { id: 8, feedback: "".padEnd(35, 'a') },
-            { id: 9, feedback: "".padEnd(40, 'a') },
-            { id: 10, feedback: "".padEnd(45, 'a') },
-            { id: 11, feedback: "".padEnd(45, 'a') }
-        ];
+      // 假設的資料
+      const reviewers = [
+        { id: 1, feedback: "".padEnd(0, "a") },
+        { id: 2, feedback: "".padEnd(5, "a") },
+        { id: 3, feedback: "".padEnd(10, "a") },
+        { id: 4, feedback: "".padEnd(15, "a") },
+        { id: 5, feedback: "".padEnd(20, "a") },
+        { id: 6, feedback: "".padEnd(25, "a") },
+        { id: 7, feedback: "".padEnd(30, "a") },
+        { id: 8, feedback: "".padEnd(35, "a") },
+        { id: 9, feedback: "".padEnd(40, "a") },
+        { id: 10, feedback: "".padEnd(45, "a") },
+        { id: 11, feedback: "".padEnd(45, "a") },
+      ];
 
-        // 找出最大字數
-        const maxWords = Math.max(...reviewers.map(r => r.feedback.length));
+      // 找出最大字數
+      const maxWords = Math.max(...reviewers.map((r) => r.feedback.length));
 
-        // 計算正規化分數和對應的顏色，創建節點
-        reviewers.forEach(reviewer => {
-            const normalizedScore = (reviewer.feedback.length / maxWords) * 100;
-            const lightness = 95 - normalizedScore * 0.4; // 計算亮度，範圍從90%到10%
-            nodes.add({
-                id: reviewer.id,
-                label: `${reviewer.id}: ${reviewer.feedback.length} chars`,
-                color: `hsl(240, 100%, ${lightness}%)`
-            });
-        });
+      // 計算正規化分數和對應的顏色，創建節點
+      reviewers.forEach((reviewer) => {
+        const normalizedScore = (reviewer.feedback.length / maxWords) * 100;
+        const lightness = 95 - normalizedScore * 0.4; // 計算亮度，範圍從90%到10%
+        nodes.add({
+          id: reviewer.id,
+          label: `${reviewer.id}: ${reviewer.feedback.length} chars`,
+          color: `hsl(350, 80%, ${lightness}%)`,
+        }); // 本來設定Node color: #FFD7DE 粉紅色
+      });
 
-        // 建立一個新的空邊集合
-        var edges = new vis.DataSet();
+      // 建立一個新的空邊集合
+      var edges = new vis.DataSet();
 
-        // 建立邊（簡化示範，連接每個節點）
-        for (let i = 1; i < reviewers.length; i++) {
-            edges.add({ from: i, to: i + 1 });
-        }
+      // 建立邊（簡化示範，連接每個節點）
+      for (let i = 1; i < reviewers.length; i++) {
+        edges.add({ from: i, to: i + 1 });
+      }
 
-        // 獲取容器元素，通常是一個div，用來展示網絡圖
-        var container = document.getElementById('mynetwork');
+      // 獲取容器元素，通常是一個div，用來展示網絡圖
+      var container = document.getElementById("mynetwork");
 
-        // 構造網絡圖所需的數據，包括節點和邊
-        var data = {
-            nodes: nodes,
-            edges: edges
-        };
+      // 構造網絡圖所需的數據，包括節點和邊
+      var data = {
+        nodes: nodes,
+        edges: edges,
+      };
 
-        var options = {}; // 使用預設設定
+      var options = {}; // 使用預設設定
 
-        // 創建一個新的 network，並將其附加到容器上
-        var network = new vis.Network(container, data, options);
+      // 創建一個新的 network，並將其附加到容器上
+      var network = new vis.Network(container, data, options);
     </script>
-</body>
+  </body>
 </html>

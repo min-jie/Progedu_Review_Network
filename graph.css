@@ -1,6 +1,5 @@
 #reviewNetwork {
-    width: 600px;
-    height: 600px;
-    border: 1px solid black; /* Optional: just to make the div visible */
+  width: 600px;
+  height: 600px;
+  border: 1px solid black; /* Optional: just to make the div visible */
 }
-
