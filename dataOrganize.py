@@ -66,18 +66,26 @@ def organize_data_based_on_round(records):
 
     final_data = []
     final_data = []
+
     for key, value in organized_data.items():
         reviewer_name = value['reviewerName']
         author_name = value['authorName']
 
-        # 只考慮非 -1 的分數
-        valid_scores = [score for score in reviewer_scores.get(reviewer_name, []) if score != -1]
-        
+        # 取得reviewer的所有分數
+        scores = reviewer_scores.get(reviewer_name, [])
+
+        # 檢查是否存在非 -1 的分數
+        valid_scores = [score for score in scores if score != -1]
+
         if valid_scores:
             # 如果存在有效分數，則計算平均分
             avg_score = sum(valid_scores) / len(valid_scores)
+        elif scores:
+            # 如果所有分數都是 -1，設置 avgReviewScore 為 -1
+            avg_score = -1
         else:
-            avg_score = 0  # 如果沒有任何有效分數，設置為0
+            # 如果沒有任何分數，設置為0或特定的無效提示
+            avg_score = 'No Scores Available'  # 可以根據需要設置為 '0'，'No Scores' 或其他
 
         value['avgReviewScore'] = avg_score
 
@@ -92,6 +100,8 @@ def organize_data_based_on_round(records):
         value['avgFeedbackLength'] = avg_feedback_length
 
         final_data.append(value)
+
+
 
     return {"recordData": final_data}
 
