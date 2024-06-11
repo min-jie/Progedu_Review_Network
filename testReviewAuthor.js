@@ -2218,7 +2218,6 @@ document.addEventListener("DOMContentLoaded", function () {
       avgFeedbackLength: 7.166666666666667,
     },
   ];
-
   // 建立一個新的空節點集合
   var nodes = new vis.DataSet();
   // 建立一個新的空邊集合
@@ -2230,7 +2229,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 遍歷記錄數據，計算評論者的平均分數
   recordData.forEach((record) => {
-    const reviewerId = record.reviewerUsername; // 從記錄中獲取評論者 ID
+    const reviewerId = record.reviewId; // 從記錄中獲取評論者 ID
 
     record.round.forEach((rnd) => {
       // 確保評論者 ID 已經在對象中有對應的鍵
@@ -2248,7 +2247,8 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let reviewerId in reviewerScores) {
     if (reviewerCounts[reviewerId] > 0) {
       // 確保有至少一個有效分數
-      avgReviewScores[reviewerId] = reviewerScores[reviewerId] / reviewerCounts[reviewerId];
+      avgReviewScores[reviewerId] =
+        reviewerScores[reviewerId] / reviewerCounts[reviewerId];
     } else {
       avgReviewScores[reviewerId] = 0; // 處理沒有有效分數的情況
     }
@@ -2260,59 +2260,36 @@ document.addEventListener("DOMContentLoaded", function () {
       record.round.map((rnd) => rnd.feedback.trim().length),
     ),
   );
+  console.log(maxWords);
 
   // 建立一個對象來存儲已經處理過的用戶節點
   var userNodes = {};
 
-  // 確保每位用戶只有一個節點
+  // 遍歷每條記錄，為每個交互創建節點和邊
   recordData.forEach((record) => {
-    const authorId = record.authorUsername;
-    const reviewerId = record.reviewerUsername;
+    const userId = record.authorUsername;
 
-    if (!userNodes[authorId]) {
-      userNodes[authorId] = {
-        id: authorId,
+    // 如果用戶節點還不存在，創建新的節點
+    if (!userNodes[userId]) {
+      userNodes[userId] = {
+        id: userId,
         label: record.authorName,
         value: 10, // 初始大小
-        color: { background: "#FFD7DE", border: "#FFC0CB" } // 統一設置為粉紅色
+        color: { background: "#FFD7DE", border: "#FFC0CB" }, // 統一設置為粉紅色
       };
-    }
-
-    if (!userNodes[reviewerId]) {
-      userNodes[reviewerId] = {
-        id: reviewerId,
-        label: record.reviewerName,
-        value: 10, // 初始大小
-        color: { background: "#FFD7DE", border: "#FFC0CB" } // 統一設置為粉紅色
-      };
-    }
-  });
-
-  // 將所有用戶節點添加到節點集合中
-  for (let userId in userNodes) {
-    nodes.add(userNodes[userId]);
-  }
-
-  // 遍歷每條記錄，為每個交互創建邊
-  recordData.forEach((record) => {
-    const authorId = record.authorUsername;
-    const reviewerId = record.reviewerUsername;
-
-    // 確保 reviewer 和 author 節點存在
-    if (!userNodes[reviewerId]) {
-      console.warn(`Reviewer node not found: ${reviewerId}`);
-    }
-    if (!userNodes[authorId]) {
-      console.warn(`Author node not found: ${authorId}`);
     }
 
     record.round.forEach((rnd) => {
-      var isCommentEmpty = rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
+      const reviewerId = record.reviewId;
+      const authorNodeId = userId;
+
+      var isCommentEmpty =
+        rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
       var nodeSize = getSizeByReviewScore(avgReviewScores[reviewerId]);
 
-      // 計算正規化分數和對應的顏色，更新節點
+      // 計算正規化分數和對應的顏色，創建節點
       const normalizedScore = (rnd.feedback.trim().length / maxWords) * 100;
-      const lightness = 80 - normalizedScore * 0.6; // 计算亮度,范围从90%到10%
+      const lightness = 80 - normalizedScore * 0.5; // 計算亮度，範圍從80%到30%
       const nodeColor = `hsl(350, 100%, ${lightness}%)`;
 
       // 決定邊的顏色
@@ -2324,35 +2301,33 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      // 添加評論者到作者的邊
-      if (userNodes[reviewerId] && userNodes[authorId]) {
-        edges.add({
-          from: reviewerId,
-          to: authorId,
-          arrows: "to",
-          dashes: isCommentEmpty,
-          color: edgeColor,
-        });
-      }
+      // 作為 reviewer 添加邊，設置顏色和樣式
+      edges.add({
+        from: reviewerId,
+        to: authorNodeId,
+        arrows: "to",
+        dashes: isCommentEmpty,
+        color: edgeColor,
+      });
 
-      // 添加作者到評論者的邊
-      if (userNodes[reviewerId] && userNodes[authorId]) {
-        edges.add({
-          from: authorId,
-          to: reviewerId,
-          arrows: "to",
-          dashes: isCommentEmpty,
-          color: edgeColor,
-        });
-      }
+      // 作為 author 添加邊，設置顏色和樣式
+      edges.add({
+        from: authorNodeId,
+        to: reviewerId,
+        arrows: "to",
+        dashes: isCommentEmpty,
+        color: edgeColor,
+      });
 
-      // 更新用戶節點大小和顏色
-      if (userNodes[authorId]) {
-        userNodes[authorId].value += nodeSize;
-        userNodes[authorId].color = { background: nodeColor, border: nodeColor };
-      }
+      // 更新用戶節點大小
+      userNodes[authorNodeId].value += nodeSize;
     });
   });
+
+  // 將所有用戶節點添加到節點集合中
+  for (let userId in userNodes) {
+    nodes.add(userNodes[userId]);
+  }
 
   // 根據評分來確定節點大小的函數
   function getSizeByReviewScore(avgReviewScore) {
@@ -2400,5 +2375,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 創建一個新的 network，並將其附加到容器上
   var network = new vis.Network(container, data, options);
-
 });
