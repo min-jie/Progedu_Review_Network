@@ -65,7 +65,6 @@ def organize_data_based_on_round(records):
         reviewer_feedback_lengths[reviewer].append(feedback_length)
 
     final_data = []
-    final_data = []
 
     for key, value in organized_data.items():
         reviewer_name = value['reviewerName']
@@ -77,10 +76,10 @@ def organize_data_based_on_round(records):
         # 檢查是否存在非 -1 的分數
         valid_scores = [score for score in scores if score != -1]
 
-        if valid_scores:
+        if (valid_scores):
             # 如果存在有效分數，則計算平均分
             avg_score = sum(valid_scores) / len(valid_scores)
-        elif scores:
+        elif (scores):
             # 如果所有分數都是 -1，設置 avgReviewScore 為 -1
             avg_score = -1
         else:
@@ -99,7 +98,13 @@ def organize_data_based_on_round(records):
         # 將平均字數存儲在每條記錄中
         value['avgFeedbackLength'] = avg_feedback_length
 
+        # 更新所有符合條件的記錄
+        for other_value in organized_data.values():
+            if other_value['authorName'] == reviewer_name:
+                other_value['avgFeedbackLength'] = avg_feedback_length
+
         final_data.append(value)
+
 
 
 

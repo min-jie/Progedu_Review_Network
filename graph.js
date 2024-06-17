@@ -2248,17 +2248,35 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let reviewerId in reviewerScores) {
     if (reviewerCounts[reviewerId] > 0) {
       // 確保有至少一個有效分數
-      avgReviewScores[reviewerId] = reviewerScores[reviewerId] / reviewerCounts[reviewerId];
+      avgReviewScores[reviewerId] =
+        reviewerScores[reviewerId] / reviewerCounts[reviewerId];
     } else {
       avgReviewScores[reviewerId] = 0; // 處理沒有有效分數的情況
     }
   }
 
-  // 找出最大字數
-  const maxWords = Math.max(
-    ...recordData.flatMap((record) =>
-      record.round.map((rnd) => rnd.feedback.trim().length),
-    ),
+  // // 找出最大字數
+  // const maxWords = Math.max(
+  //   ...recordData.flatMap((record) =>
+  //     record.round.map((rnd) => rnd.feedback.trim().length),
+  //   ),
+  // );
+
+  // // 將Feedback字數最多者 列印出來
+  // console.log(maxWords)
+  // 找出最大 avgFeedbackLength
+  const maxAvgFeedbackLength = Math.max(
+    ...recordData.map((record) => record.avgFeedbackLength),
+  );
+
+  // 找出對應的 reviewerName
+  const reviewer = recordData.find(
+    (record) => record.avgFeedbackLength === maxAvgFeedbackLength,
+  ).reviewerName;
+
+  // 將最大 avgFeedbackLength 及其對應的 reviewerName 列印出來
+  console.log(
+    `Max AvgFeedbackLength: ${maxAvgFeedbackLength}, Reviewer: ${reviewer}`,
   );
 
   // 建立一個對象來存儲已經處理過的用戶節點
@@ -2274,7 +2292,7 @@ document.addEventListener("DOMContentLoaded", function () {
         id: authorId,
         label: record.authorName,
         value: 10, // 初始大小
-        color: { background: "#FFD7DE", border: "#FFC0CB" } // 統一設置為粉紅色
+        color: { background: "#FFD7DE", border: "#FFC0CB" }, // 統一設置為粉紅色
       };
     }
 
@@ -2283,7 +2301,7 @@ document.addEventListener("DOMContentLoaded", function () {
         id: reviewerId,
         label: record.reviewerName,
         value: 10, // 初始大小
-        color: { background: "#FFD7DE", border: "#FFC0CB" } // 統一設置為粉紅色
+        color: { background: "#FFD7DE", border: "#FFC0CB" }, // 統一設置為粉紅色
       };
     }
   });
@@ -2307,13 +2325,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     record.round.forEach((rnd) => {
-      var isCommentEmpty = rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
+      var isCommentEmpty =
+        rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
       var nodeSize = getSizeByReviewScore(avgReviewScores[reviewerId]);
 
       // 計算正規化分數和對應的顏色，更新節點
-      const normalizedScore = (rnd.feedback.trim().length / maxWords) * 100;
-      const lightness = 80 - normalizedScore * 0.6; // 计算亮度,范围从90%到10%
-      const nodeColor = `hsl(350, 100%, ${lightness}%)`;
+      const normalizedScore =
+        (rnd.feedback.trim().length / maxAvgFeedbackLength) * 100;
+      const lightness = 100 - normalizedScore * 0.5; // 计算亮度,范围从90%到10%
+      const nodeColor = `hsl(350, 80%, ${lightness}%)`;
 
       // 決定邊的顏色
       let edgeColor = isCommentEmpty ? "red" : "#199FD8";
@@ -2349,7 +2369,10 @@ document.addEventListener("DOMContentLoaded", function () {
       // 更新用戶節點大小和顏色
       if (userNodes[authorId]) {
         userNodes[authorId].value += nodeSize;
-        userNodes[authorId].color = { background: nodeColor, border: nodeColor };
+        userNodes[authorId].color = {
+          background: nodeColor,
+          border: nodeColor,
+        };
       }
     });
   });
@@ -2400,5 +2423,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 創建一個新的 network，並將其附加到容器上
   var network = new vis.Network(container, data, options);
-
 });
