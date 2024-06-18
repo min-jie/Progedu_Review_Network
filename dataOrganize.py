@@ -66,27 +66,69 @@ def organize_data_based_on_round(records):
 
     final_data = []
 
+    # 暫存每個 reviewer 的所有有效 reviewScore
+    reviewer_scores = {}
+
+    # 第一步：累積每個 reviewer 的所有 reviewScore
+    for key, value in organized_data.items():
+        reviewer_name = value['reviewerName']
+        rounds = value.get('round', [])
+
+        if reviewer_name not in reviewer_scores:
+            reviewer_scores[reviewer_name] = []
+
+        for round_info in rounds:
+            score = round_info.get('reviewScore', -1)
+            reviewer_scores[reviewer_name].append(score)
+
+    # 檢查累積結果
+    for reviewer, scores in reviewer_scores.items():
+        print(f"Reviewer: {reviewer}, Scores: {scores}")
+
+    # 第二步：計算每個 reviewer 的 avgReviewScore
+    reviewer_avg_scores = {}
+    for reviewer, scores in reviewer_scores.items():
+        valid_scores = [score for score in scores if score != -1]
+        if valid_scores:
+            avg_score = sum(valid_scores) / len(valid_scores)
+        else:
+            avg_score = 'No Scores Available'  # 可以根據需要設置為 '0'，'No Scores' 或其他
+        reviewer_avg_scores[reviewer] = avg_score
+
+    # 檢查計算結果
+    for reviewer, avg_score in reviewer_avg_scores.items():
+        print(f"Reviewer: {reviewer}, Average Score: {avg_score}")
+
+    # 第三步：將 avgReviewScore 更新到對應的 reviewerName 作為 authorName 的資料中
     for key, value in organized_data.items():
         reviewer_name = value['reviewerName']
         author_name = value['authorName']
+        avg_score = reviewer_avg_scores.get(reviewer_name, 'No Scores Available')
 
-        # 取得reviewer的所有分數
-        scores = reviewer_scores.get(reviewer_name, [])
+        if author_name in reviewer_avg_scores:
+            # 更新 avgReviewScore
+            value['avgReviewScore'] = reviewer_avg_scores[author_name]
 
-        # 檢查是否存在非 -1 的分數
-        valid_scores = [score for score in scores if score != -1]
+            # 打印 authorName, reviewScore 以及 avgReviewScore
+            print(f"Author Name: {author_name}")
+            print(f"Reviewer Name: {reviewer_name}")
+            print(f"Average Review Score: {reviewer_avg_scores[author_name]}")
+            print('---')
 
-        if (valid_scores):
-            # 如果存在有效分數，則計算平均分
-            avg_score = sum(valid_scores) / len(valid_scores)
-        elif (scores):
-            # 如果所有分數都是 -1，設置 avgReviewScore 為 -1
-            avg_score = -1
-        else:
-            # 如果沒有任何分數，設置為0或特定的無效提示
-            avg_score = 'No Scores Available'  # 可以根據需要設置為 '0'，'No Scores' 或其他
+    # 檢查更新後的 organized_data
+    print("\nUpdated organized_data:")
+    for key, value in organized_data.items():
+        print(value)
 
-        value['avgReviewScore'] = avg_score
+
+
+       
+
+
+    # 計算reviewer給出的feedback平均字數    
+    for key, value in organized_data.items():
+        reviewer_name = value['reviewerName']
+        author_name = value['authorName']
 
         # 計算reviewer給出的feedback平均字數
         feedback_lengths = reviewer_feedback_lengths.get(reviewer_name, [])

@@ -29,7 +29,7 @@
                     "pmId": 78
                 }
             ],
-            "avgReviewScore": 4.0,
+            "avgReviewScore": 2.0,
             "avgFeedbackLength": 15.333333333333334
         },
         {
@@ -61,7 +61,7 @@
                     "pmId": 100
                 }
             ],
-            "avgReviewScore": "No Scores Available",
+            "avgReviewScore": 2.0,
             "avgFeedbackLength": 15.333333333333334
         },
         {
@@ -93,7 +93,7 @@
                     "pmId": 122
                 }
             ],
-            "avgReviewScore": "No Scores Available",
+            "avgReviewScore": 2.0,
             "avgFeedbackLength": 15.333333333333334
         },
         {
@@ -157,7 +157,7 @@
                     "pmId": 101
                 }
             ],
-            "avgReviewScore": 4.0,
+            "avgReviewScore": "No Scores Available",
             "avgFeedbackLength": 17.666666666666668
         },
         {
@@ -285,7 +285,7 @@
                     "pmId": 124
                 }
             ],
-            "avgReviewScore": 4.0,
+            "avgReviewScore": "No Scores Available",
             "avgFeedbackLength": 17.166666666666668
         },
         {
@@ -413,7 +413,7 @@
                     "pmId": 82
                 }
             ],
-            "avgReviewScore": 4.0,
+            "avgReviewScore": "No Scores Available",
             "avgFeedbackLength": 12.666666666666666
         },
         {
@@ -509,7 +509,7 @@
                     "pmId": 83
                 }
             ],
-            "avgReviewScore": 4.0,
+            "avgReviewScore": "No Scores Available",
             "avgFeedbackLength": 6.0
         },
         {
@@ -541,7 +541,7 @@
                     "pmId": 105
                 }
             ],
-            "avgReviewScore": 4.0,
+            "avgReviewScore": "No Scores Available",
             "avgFeedbackLength": 6.0
         },
         {
@@ -605,8 +605,8 @@
                     "pmId": 84
                 }
             ],
-            "avgFeedbackLength": 5.166666666666667,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 5.166666666666667
         },
         {
             "reviewId": 14,
@@ -637,8 +637,8 @@
                     "pmId": 106
                 }
             ],
-            "avgFeedbackLength": 5.166666666666667,
-            "avgReviewScore": 4.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 5.166666666666667
         },
         {
             "reviewId": 13,
@@ -669,8 +669,8 @@
                     "pmId": 128
                 }
             ],
-            "avgFeedbackLength": 5.166666666666667,
-            "avgReviewScore": 4.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 5.166666666666667
         },
         {
             "reviewId": 16,
@@ -701,8 +701,8 @@
                     "pmId": 85
                 }
             ],
-            "avgFeedbackLength": 14.333333333333334,
-            "avgReviewScore": 0.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 14.333333333333334
         },
         {
             "reviewId": 15,
@@ -733,8 +733,8 @@
                     "pmId": 107
                 }
             ],
-            "avgFeedbackLength": 14.333333333333334,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 14.333333333333334
         },
         {
             "reviewId": 14,
@@ -765,8 +765,8 @@
                     "pmId": 129
                 }
             ],
-            "avgFeedbackLength": 14.333333333333334,
-            "avgReviewScore": 4.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 14.333333333333334
         },
         {
             "reviewId": 17,
@@ -797,8 +797,8 @@
                     "pmId": 86
                 }
             ],
-            "avgFeedbackLength": 10.5,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 10.5
         },
         {
             "reviewId": 16,
@@ -829,8 +829,8 @@
                     "pmId": 108
                 }
             ],
-            "avgFeedbackLength": 4.5,
-            "avgReviewScore": 0.0
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 4.5
         },
         {
             "reviewId": 15,
@@ -861,8 +861,8 @@
                     "pmId": 130
                 }
             ],
-            "avgFeedbackLength": 13.666666666666666,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 13.666666666666666
         },
         {
             "reviewId": 18,
@@ -893,8 +893,8 @@
                     "pmId": 87
                 }
             ],
-            "avgFeedbackLength": 9.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 9.0
         },
         {
             "reviewId": 17,
@@ -925,8 +925,8 @@
                     "pmId": 109
                 }
             ],
-            "avgFeedbackLength": 10.5,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 10.5
         },
         {
             "reviewId": 16,
@@ -957,8 +957,8 @@
                     "pmId": 131
                 }
             ],
-            "avgFeedbackLength": 4.5,
-            "avgReviewScore": 0.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 4.5
         },
         {
             "reviewId": 19,
@@ -989,8 +989,8 @@
                     "pmId": 88
                 }
             ],
-            "avgFeedbackLength": 17.333333333333332,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.333333333333332
         },
         {
             "reviewId": 18,
@@ -1021,8 +1021,8 @@
                     "pmId": 110
                 }
             ],
-            "avgFeedbackLength": 9.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 9.0
         },
         {
             "reviewId": 17,
@@ -1053,8 +1053,8 @@
                     "pmId": 132
                 }
             ],
-            "avgFeedbackLength": 10.5,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 10.5
         },
         {
             "reviewId": 20,
@@ -1085,8 +1085,8 @@
                     "pmId": 89
                 }
             ],
-            "avgFeedbackLength": 49.833333333333336,
-            "avgReviewScore": 3.5
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 49.833333333333336
         },
         {
             "reviewId": 19,
@@ -1117,8 +1117,8 @@
                     "pmId": 111
                 }
             ],
-            "avgFeedbackLength": 17.333333333333332,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.333333333333332
         },
         {
             "reviewId": 18,
@@ -1149,8 +1149,8 @@
                     "pmId": 133
                 }
             ],
-            "avgFeedbackLength": 9.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 9.0
         },
         {
             "reviewId": 21,
@@ -1181,8 +1181,8 @@
                     "pmId": 90
                 }
             ],
-            "avgFeedbackLength": 25.0,
-            "avgReviewScore": 3.0
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 25.0
         },
         {
             "reviewId": 20,
@@ -1213,8 +1213,8 @@
                     "pmId": 112
                 }
             ],
-            "avgFeedbackLength": 49.833333333333336,
-            "avgReviewScore": 3.5
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 49.833333333333336
         },
         {
             "reviewId": 19,
@@ -1245,8 +1245,8 @@
                     "pmId": 134
                 }
             ],
-            "avgFeedbackLength": 17.333333333333332,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 17.333333333333332
         },
         {
             "reviewId": 22,
@@ -1277,8 +1277,8 @@
                     "pmId": 91
                 }
             ],
-            "avgFeedbackLength": 7.166666666666667,
-            "avgReviewScore": 3.0
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 7.166666666666667
         },
         {
             "reviewId": 21,
@@ -1309,8 +1309,8 @@
                     "pmId": 113
                 }
             ],
-            "avgFeedbackLength": 25.0,
-            "avgReviewScore": 3.0
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 25.0
         },
         {
             "reviewId": 20,
@@ -1341,8 +1341,8 @@
                     "pmId": 135
                 }
             ],
-            "avgFeedbackLength": 49.833333333333336,
-            "avgReviewScore": 3.5
+            "avgReviewScore": 4.0,
+            "avgFeedbackLength": 49.833333333333336
         },
         {
             "reviewId": 23,
@@ -1373,8 +1373,8 @@
                     "pmId": 92
                 }
             ],
-            "avgFeedbackLength": 20.166666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 20.166666666666668
         },
         {
             "reviewId": 22,
@@ -1405,8 +1405,8 @@
                     "pmId": 114
                 }
             ],
-            "avgFeedbackLength": 7.166666666666667,
-            "avgReviewScore": 3.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 7.166666666666667
         },
         {
             "reviewId": 21,
@@ -1437,8 +1437,8 @@
                     "pmId": 136
                 }
             ],
-            "avgFeedbackLength": 25.0,
-            "avgReviewScore": 3.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 25.0
         },
         {
             "reviewId": 1,
@@ -1469,8 +1469,8 @@
                     "pmId": 70
                 }
             ],
-            "avgFeedbackLength": 15.333333333333334,
-            "avgReviewScore": 2.0
+            "avgReviewScore": 0.0,
+            "avgFeedbackLength": 15.333333333333334
         },
         {
             "reviewId": 23,
@@ -1501,8 +1501,8 @@
                     "pmId": 115
                 }
             ],
-            "avgFeedbackLength": 20.166666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 0.0,
+            "avgFeedbackLength": 20.166666666666668
         },
         {
             "reviewId": 22,
@@ -1533,8 +1533,8 @@
                     "pmId": 137
                 }
             ],
-            "avgFeedbackLength": 7.166666666666667,
-            "avgReviewScore": 3.0
+            "avgReviewScore": 0.0,
+            "avgFeedbackLength": 7.166666666666667
         },
         {
             "reviewId": 2,
@@ -1565,8 +1565,8 @@
                     "pmId": 71
                 }
             ],
-            "avgFeedbackLength": 17.666666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.666666666666668
         },
         {
             "reviewId": 1,
@@ -1597,8 +1597,8 @@
                     "pmId": 93
                 }
             ],
-            "avgFeedbackLength": 15.333333333333334,
-            "avgReviewScore": 2.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 15.333333333333334
         },
         {
             "reviewId": 23,
@@ -1629,8 +1629,8 @@
                     "pmId": 138
                 }
             ],
-            "avgFeedbackLength": 20.166666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 20.166666666666668
         },
         {
             "reviewId": 3,
@@ -1661,8 +1661,8 @@
                     "pmId": 72
                 }
             ],
-            "avgFeedbackLength": 17.166666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.166666666666668
         },
         {
             "reviewId": 2,
@@ -1693,8 +1693,8 @@
                     "pmId": 94
                 }
             ],
-            "avgFeedbackLength": 17.666666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.666666666666668
         },
         {
             "reviewId": 1,
@@ -1725,8 +1725,8 @@
                     "pmId": 116
                 }
             ],
-            "avgFeedbackLength": 15.333333333333334,
-            "avgReviewScore": 2.0
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 15.333333333333334
         },
         {
             "reviewId": 4,
@@ -1757,8 +1757,8 @@
                     "pmId": 73
                 }
             ],
-            "avgFeedbackLength": 15.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 15.0
         },
         {
             "reviewId": 3,
@@ -1789,8 +1789,8 @@
                     "pmId": 95
                 }
             ],
-            "avgFeedbackLength": 17.166666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.166666666666668
         },
         {
             "reviewId": 2,
@@ -1821,8 +1821,8 @@
                     "pmId": 117
                 }
             ],
-            "avgFeedbackLength": 17.666666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 17.666666666666668
         },
         {
             "reviewId": 5,
@@ -1853,8 +1853,8 @@
                     "pmId": 74
                 }
             ],
-            "avgFeedbackLength": 12.666666666666666,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.5,
+            "avgFeedbackLength": 12.666666666666666
         },
         {
             "reviewId": 4,
@@ -1885,8 +1885,8 @@
                     "pmId": 96
                 }
             ],
-            "avgFeedbackLength": 15.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.5,
+            "avgFeedbackLength": 15.0
         },
         {
             "reviewId": 3,
@@ -1917,8 +1917,8 @@
                     "pmId": 118
                 }
             ],
-            "avgFeedbackLength": 17.166666666666668,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.5,
+            "avgFeedbackLength": 17.166666666666668
         },
         {
             "reviewId": 6,
@@ -1949,8 +1949,8 @@
                     "pmId": 75
                 }
             ],
-            "avgFeedbackLength": 6.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.0,
+            "avgFeedbackLength": 6.0
         },
         {
             "reviewId": 5,
@@ -1981,8 +1981,8 @@
                     "pmId": 97
                 }
             ],
-            "avgFeedbackLength": 12.666666666666666,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.0,
+            "avgFeedbackLength": 12.666666666666666
         },
         {
             "reviewId": 4,
@@ -2013,8 +2013,8 @@
                     "pmId": 119
                 }
             ],
-            "avgFeedbackLength": 15.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.0,
+            "avgFeedbackLength": 15.0
         },
         {
             "reviewId": 7,
@@ -2045,8 +2045,8 @@
                     "pmId": 76
                 }
             ],
-            "avgFeedbackLength": 5.166666666666667,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.0,
+            "avgFeedbackLength": 5.166666666666667
         },
         {
             "reviewId": 6,
@@ -2077,8 +2077,8 @@
                     "pmId": 98
                 }
             ],
-            "avgFeedbackLength": 6.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.0,
+            "avgFeedbackLength": 6.0
         },
         {
             "reviewId": 5,
@@ -2109,8 +2109,8 @@
                     "pmId": 120
                 }
             ],
-            "avgFeedbackLength": 12.666666666666666,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": 3.0,
+            "avgFeedbackLength": 12.666666666666666
         },
         {
             "reviewId": 8,
@@ -2141,8 +2141,8 @@
                     "pmId": 77
                 }
             ],
-            "avgFeedbackLength": 14.333333333333334,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 14.333333333333334
         },
         {
             "reviewId": 7,
@@ -2173,8 +2173,8 @@
                     "pmId": 99
                 }
             ],
-            "avgFeedbackLength": 5.166666666666667,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 5.166666666666667
         },
         {
             "reviewId": 6,
@@ -2205,8 +2205,8 @@
                     "pmId": 121
                 }
             ],
-            "avgFeedbackLength": 6.0,
-            "avgReviewScore": "No Scores Available"
+            "avgReviewScore": "No Scores Available",
+            "avgFeedbackLength": 6.0
         }
     ]
 }
