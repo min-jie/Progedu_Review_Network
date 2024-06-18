@@ -2266,8 +2266,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 將最大 avgFeedbackLength 及其對應的 reviewerName 列印出來
   console.log(
-    `Max AvgFeedbackLength: ${maxAvgFeedbackLength}, Reviewer: ${reviewer}`,
+    `Max AvgFeedbackLength: ${maxAvgFeedbackLength}`,
   );
+
+  const authorWithMaxFeedbackLength = recordData.find(
+    (record) => record.avgFeedbackLength === maxAvgFeedbackLength
+  );
+  
+  if (authorWithMaxFeedbackLength) {
+    const authorName = authorWithMaxFeedbackLength.authorName;
+    console.log(`Author with Max AvgFeedbackLength: ${authorName}`);
+  } else {
+    console.log(`No record found for max AvgFeedbackLength.`);
+  }
+  
 
   // 建立一個對象來存儲已經處理過的用戶節點
   var userNodes = {};
