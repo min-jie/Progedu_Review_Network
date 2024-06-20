@@ -120,11 +120,6 @@ def organize_data_based_on_round(records):
     for key, value in organized_data.items():
         print(value)
 
-
-
-       
-
-
     # 計算reviewer給出的feedback平均字數    
     for key, value in organized_data.items():
         reviewer_name = value['reviewerName']

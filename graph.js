@@ -2219,9 +2219,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  // 建立一個新的空節點集合
+  // 建立一個新的空 node, edge 集合
   var nodes = new vis.DataSet();
-  // 建立一個新的空邊集合
   var edges = new vis.DataSet();
 
   // 建立一個存放評論分數的空集合
@@ -2329,18 +2328,18 @@ document.addEventListener("DOMContentLoaded", function () {
     record.round.forEach((rnd) => {
       var isCommentEmpty =
         rnd.feedback.trim() === "" || rnd.feedback === "無回饋";
-      var nodeSize = getSizeByReviewScore(avgReviewScores[reviewerId]);
+      const nodeSize = getSizeByFeedbackLength(record.avgFeedbackLength, maxAvgFeedbackLength);
 
       
       // 計算正規化分數和對應的顏色，更新節點
-      const normalizedScore = (record.avgFeedbackLength / maxAvgFeedbackLength) * 88;
-      const lightness = 95 - normalizedScore * 0.5; // 計算亮度，範圍從90%到10%
-      const nodeColor = `hsl(350, 80%, ${lightness}%)`;  // 色相 (Hue) 設置為 345，飽和度 (Saturation) 設置為 100%，而亮度 (Lightness) 則根據正規化分數計算。
+      // const normalizedScore = (record.avgFeedbackLength / maxAvgFeedbackLength) * 80;
+      // const lightness = 95 - normalizedScore * 0.5; // 計算亮度，範圍從90%到10%
+      // const nodeColor = `hsl(350, 80%, ${lightness}%)`;  // 色相 (Hue) 設置為 345，飽和度 (Saturation) 設置為 100%，而亮度 (Lightness) 則根據正規化分數計算。
       if (!userNodes[authorId]) {
         userNodes[authorId] = {
           id: authorId,
           label: record.authorName,
-          value: 10, // 初始大小
+          value: 30, // 初始大小
           color: { background: nodeColor, border: nodeColor }, // 根據正規化分數設置顏色
         };
       }
@@ -2349,7 +2348,7 @@ document.addEventListener("DOMContentLoaded", function () {
         userNodes[reviewerId] = {
           id: reviewerId,
           label: record.reviewerName,
-          value: 10, // 初始大小
+          value: 30, // 初始大小
           color: { background: "#FFD7DE", border: "#FFC0CB" }, // 統一設置為粉紅色
         };
       }
@@ -2387,22 +2386,19 @@ document.addEventListener("DOMContentLoaded", function () {
       // 更新用戶節點大小和顏色
       if (userNodes[authorId]) {
         userNodes[authorId].value += nodeSize;
-        userNodes[authorId].color = {
-          background: nodeColor,
-          border: nodeColor,
-        };
       }
     });
   });
 
   // 根據評分來確定節點大小的函數
-  function getSizeByReviewScore(avgReviewScore) {
-    if (avgReviewScore > 0 && avgReviewScore < 1) return 100;
-    if (avgReviewScore == 1) return 200;
-    if (avgReviewScore == 2) return 300;
-    if (avgReviewScore == 3) return 400;
-    if (avgReviewScore == 4) return 500;
-    return 10; // 其他情況默認為最小大小 10
+  function getSizeByFeedbackLength(avgFeedbackLength, maxAvgFeedbackLength) {
+    const maxNodeSize = 100;  // 平均feedback length最長
+    const minNodeSize = 30; // avgFeedbackLength 最短
+    const normalizedSize = (avgFeedbackLength / maxAvgFeedbackLength) * maxNodeSize;
+
+    // 保證節點大小在最小和最大範圍內
+    return Math.max(minNodeSize, Math.min(maxNodeSize, normalizedSize));
+
   }
 
   // 獲取容器元素，通常是一個 div，用來展示網絡圖
@@ -2416,30 +2412,26 @@ document.addEventListener("DOMContentLoaded", function () {
   var options = {
     nodes: {
       scaling: {
-        min: 10, // 節點大小的最小值為 10
-        max: 500, // 節點大小的最大值為 400
+        min: 30, // 節點大小的最小值為 10
+        max: 100, // 節點大小的最大值為 400
         label: {
           // 關於節點標籤的配置
           enabled: true, // 啟用標籤顯示
-          min: 14, // 標籤字體的最小大小為 14
-          max: 200, // 標籤字體的最大大小為 200
+          min: 20, // 標籤字體的最小大小為 14
+          max: 100, // 標籤字體的最大大小為 200
           maxVisible: 30, // 最大可見範圍為 30 單位
           drawThreshold: 5, // 繪製閾值為 5
         },
         customScalingFunction: function (min, max, total, value) {
           // 自定義的節點大小調整函數，根據節點的值（value）決定其大小
-          if (value <= 10) return 0.1; // 預設值
-          if (value <= 100) return 0.15; // 如果值小於或等於 100，則大小比例為 0.25
-          if (value <= 200) return 0.2; // 如果值小於或等於 200，則大小比例為 0.5
-          if (value <= 300) return 0.25; // 如果值小於或等於 300，則大小比例為 0.75
-          if (value <= 400) return 0.3; // 如果值小於或等於 400，則大小比例為 1
-          return 0.35; // 如果值大於 400，大小比例為 1
+          const scaleFactor = 0.3; // 調整這個值來控制縮放比例
+          return (value - min) / (max - min);
         },
       },
     },
     edges: {
       physics: true, // 啟用物理屬性
-      length: 400, // 設置邊的初始長度
+      length: 600, // 設置邊的初始長度
     },
     physics: {
       barnesHut: {
